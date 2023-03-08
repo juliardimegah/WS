@@ -168,6 +168,7 @@ Kompilasi dependensi dengan perintah
 ```sh
 go mod tidy
 ```
+![image](https://user-images.githubusercontent.com/15622730/223695744-a08e0760-836a-4d03-bc8f-75689e732a04.png)
 
 ### Fungsi di golang
 
@@ -233,6 +234,7 @@ rapihkan dependensi
 ```sh
 go mod tidy
 ```
+![image](https://user-images.githubusercontent.com/15622730/223695851-95913cc0-3bf0-4233-9fd0-438717032991.png)
 
 ### Testing Fungsi
 
@@ -277,9 +279,12 @@ Jalankan testing
 ```sh
 go test
 ```
+![image](https://user-images.githubusercontent.com/15622730/223695934-9cf9f14b-8720-4da1-b2a4-a26296806322.png)
+Untuk melihat hasil test klik FIND pada MongoDB Compas
 
 ### Publish Package
 
+Nonton Video Koordinator:
 https://youtu.be/XLh7-D9bnTE
 
 Setting dahulu environtment variabel di windows :
