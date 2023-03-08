@@ -101,7 +101,7 @@ Pada sesi ini pastikan anda sudah mendaftarkan diri ke heroku. Kemudian kita aka
 Komunikasi di golang menggunakan json dipermudah dengan adanya struct type. Struct type ini akan mendefinisikan bagaimana bentuk json yang berkomunikasi dari frontend menuju backend. Sebelumnya inisiasi dulu package yang akan kita buat, masuk ke folder kerja kita dan lakukan inisialisasi package
 
 ```sh
-go mod init github.com/USERNAME/ai/Chapter01/KELAS/NPM
+go mod init github.com/kerjabhakti/WS/Chapter03/coba
 ```
 
 Buat file type.go pada folder tersebut. Kemudian isilah dengan struct yang akan kita buat. Perlu digaris bawahi dan wajib ada atribut :
