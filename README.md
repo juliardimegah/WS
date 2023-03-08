@@ -18,3 +18,20 @@ Data Kelompok
 8. 1214060 Prisya Haura Febrianti, 1214064 Adam Ghafara
 9. 1214078 Maulana Imanulhaq Nurdiana, Muh Fauzan Alif
 10. 1214082 Gregorius Bagaskara Balisa, 1204059 Dean Teguh Imansyah
+
+
+## Daftar Nilai 
+
+| NPM      | Nama | 1 | 
+| ----------- | ----------- | ----------- |
+| ISI NPM      |NAMA MAHASISWA | 0 |
+
+
+
+## Pelakor
+
+Pelaku delete file orang :
+|No.| NPM      | Nama | Commit |
+| ------ | ------ | ------ | ------ |
+|1.| 45345345 | sdgsdgsdgsdg | sdgsdgsdg |
+
