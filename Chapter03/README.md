@@ -289,6 +289,8 @@ https://youtu.be/XLh7-D9bnTE
 
 Setting dahulu environtment variabel di windows :
 GOPROXY=proxy.golang.org
+![image](https://user-images.githubusercontent.com/15622730/223696410-11ffa42a-225e-4d50-a30e-97d1894407d9.png)
+
 
 lakukan langkah berikut :
 
@@ -298,6 +300,13 @@ git tag v0.0.1
 git push origin --tags
 go list -m github.com/whatsauth/wasocket@v0.0.1
 ```
+![image](https://user-images.githubusercontent.com/15622730/223697179-b66aebe3-a9aa-4513-8e71-9786f01fe3d5.png)
+![image](https://user-images.githubusercontent.com/15622730/223697215-f7d24f58-d5a9-4cde-9ef2-c45ac4f972d7.png)
+Jika remote fatal rubah versinya dan ikuti langkah diatas:
+
+Ikuti langkahnya
+![image](https://user-images.githubusercontent.com/15622730/223699488-44e8665d-739c-40dd-8787-c59039dc1ce7.png)
+
 
 # Kerjakan
 
@@ -312,5 +321,5 @@ go list -m github.com/whatsauth/wasocket@v0.0.1
   - URL [pkg.go.dev](https://pkg.go.dev/), beserta skrinsutan
   - Skrinsutan isi mongodb dari mongocompass yang sudah berisi data kasus
   - Skrinsutasn isi mysql yang berisi dengan data kasus jika menggunakan mysql
-  - File Frontend dalam folder KELAS/NPM/frontend yang bisa diakses dari github pages
-  - File Backend dalam folder KELAS/NPM/backend yang sudah release versi awal di pkg.go.dev
+  - File Frontend dalam folder TUGAS/NPM/frontend yang bisa diakses dari github pages
+  - File Backend dalam folder TUGAS/NPM/backend yang sudah release versi awal di pkg.go.dev
