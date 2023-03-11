@@ -32,6 +32,22 @@ Kemudian klik Get student offer. Gunakan email kampus anda, dan lanjutkan untuk 
 
 ![image](https://user-images.githubusercontent.com/15622730/224492935-0d389e2e-7e29-42f4-a27e-552682287053.png)
 
+## Dashboard Heroku dan Heroku cli
+Setelah login, masuk ke laman https://dashboard.heroku.com/apps. Maka akan muncul list aplikasi yang sudah kita buat. Klik New dan pilih Create new app untuk melakukan deployment aplikasi baru kita.
+
+![image](https://user-images.githubusercontent.com/15622730/224493517-e927b3b9-9eac-4c8e-b574-aa864eb436be.png)
+
+Masukkan nama aplikasi kita, dan pilih lokasi server kita apakah amerika atau eropa. Kemudian klik Create app.
+![image](https://user-images.githubusercontent.com/15622730/224493617-2c9f1499-3f81-4206-bfb9-97b34757e122.png)
+
+Lakukan instalasi Heroku CLI, untuk menghubungkan komputer kita dengan server heroku. Link Instalasi https://devcenter.heroku.com/articles/heroku-cli
+![image](https://user-images.githubusercontent.com/15622730/224493750-9a04105b-0c76-4674-aeae-1f18e67d5ee0.png)
+
+https://devcenter.heroku.com/articles/heroku-cli#cli-architecture
+![image](https://user-images.githubusercontent.com/15622730/224493929-7a01c350-b750-47c6-a309-c5bcc53c894e.png)
+![image](https://user-images.githubusercontent.com/15622730/224493952-f621a851-bcbb-45ea-80e8-46d78a979848.png)
+
+
 
 
 
