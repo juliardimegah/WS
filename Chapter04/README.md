@@ -45,8 +45,11 @@ Lakukan instalasi Heroku CLI, untuk menghubungkan komputer kita dengan server he
 
 https://devcenter.heroku.com/articles/heroku-cli#cli-architecture
 ![image](https://user-images.githubusercontent.com/15622730/224493929-7a01c350-b750-47c6-a309-c5bcc53c894e.png)
+
 ![image](https://user-images.githubusercontent.com/15622730/224493952-f621a851-bcbb-45ea-80e8-46d78a979848.png)
 
+Lanjutkan sampai selesai langkah instalasinya
+![image](https://user-images.githubusercontent.com/15622730/224493999-d208a079-df02-4bcf-b6f6-618c52414d54.png)
 
 
 
