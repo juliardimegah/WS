@@ -1,3 +1,11 @@
+function PushButton(){
+    namadepan=document.getElementById("namadepan").value;
+    namabelakang=document.getElementById("namabelakang").value;
+    email=document.getElementById("email").value;
+    password=document.getElementById("password").value;
+    PostSignUp(namadepan,namabelakang,email,password);
+}
+
 function PostSignUp(namadepan,namabelakang,email,password){
     var myHeaders = new Headers();
     myHeaders.append("Login", "rollygantengsekali");
@@ -19,13 +27,9 @@ function PostSignUp(namadepan,namabelakang,email,password){
 
     fetch("https://eo9o6wm1bmlk7zs.m.pipedream.net", requestOptions)
         .then(response => response.text())
-        .then(result => console.log(result))
+        .then(result => GetResponse(result))
         .catch(error => console.log('error', error));
-}
-function PushButton(){
-    namadepan=document.getElementById("namadepan").value;
-    namabelakang=document.getElementById("namabelakang").value;
-    email=document.getElementById("email").value;
-    password=document.getElementById("password").value;
-    PostSignUp(namadepan,namabelakang,email,password);
-}
+    }
+    function GetResponse(result) {
+        document.getElementById("formsignup").innerHTML = result;
+      }
