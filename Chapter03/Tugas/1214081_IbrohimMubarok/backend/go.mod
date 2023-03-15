@@ -1,4 +1,4 @@
-module github.com/Ibrohim-Mubarok-D4-ULBI/WS/tree/main/Chapter03/Tugas/1214081_IbrohimMubarok/backend
+module github.com/Ibrohim-Mubarok-D4-ULBI/WS/Chapter03/Tugas/1214081_IbrohimMubarok/backend
 
 go 1.20
 
