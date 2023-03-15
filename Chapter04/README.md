@@ -65,7 +65,6 @@ Masukan SSH Key
 Disini kita akan mencoba testing deployment ke Heroku. Aplikasi web yang akan dilakukan deploymeny adalah Boiler Plate iTeung yang berada di repo https://github.com/aiteung/iteung
 ![image](https://user-images.githubusercontent.com/15622730/225252220-d8e3c3ed-721f-4768-bc47-fd77f7b8964d.png)
 Kita lakukan fork ke repositori kita, kita beri nama sesuai dengan nama aplikasi di heroku. Kemudian, lakukan clone repo ke komputer kita.
-![image](https://user-images.githubusercontent.com/15622730/225251157-4c0fcb81-815d-4a7b-8c84-86f781e8bc54.png)
 
 Setelah di clone menggunakan git bash kemudian masuk ke direktori repo di PC kita. Lakukan add remote heroku sesuai nama aplikasi yang sudah kita buat di heroku dengan perintah
 
