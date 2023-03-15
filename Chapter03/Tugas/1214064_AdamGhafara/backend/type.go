@@ -1,4 +1,4 @@
-package wstugas
+package adam
 
 import (
 	"go.mongodb.org/mongo-driver/bson/primitive"
