@@ -52,6 +52,34 @@ Lanjutkan sampai selesai langkah instalasinya
 
 ![image](https://user-images.githubusercontent.com/15622730/224493999-d208a079-df02-4bcf-b6f6-618c52414d54.png)
 
+Login menggunakan akun Heroku dan verifikasi code dari google authenticatornya
+![image](https://user-images.githubusercontent.com/15622730/225248671-e91c4dda-cfdb-4c54-b9b7-4409a135af2d.png)
+berhasil
+![image](https://user-images.githubusercontent.com/15622730/225248887-237d1444-65ff-4178-bf5e-3b897921d5a6.png)
+![image](https://user-images.githubusercontent.com/15622730/225249039-8a08ead2-47a1-4635-9f34-b03507ca4cac.png)
+Masukan SSH Key
+![image](https://user-images.githubusercontent.com/15622730/225249193-595fc085-0722-47c5-b66e-9d272fa27dd9.png)
+
+## Deployment Boiler Plate
+
+Disini kita akan mencoba testing deployment ke Heroku. Aplikasi web yang akan dilakukan deploymeny adalah Boiler Plate iTeung yang berada di repo https://github.com/aiteung/iteung
+![image](https://user-images.githubusercontent.com/15622730/225250530-dd700ae0-2452-4bcd-b1a9-e95c2c8a8885.png)
+Kita lakukan fork ke repositori kita, kita beri nama sesuai dengan nama aplikasi di heroku. Kemudian, lakukan clone repo ke komputer kita.
+![image](https://user-images.githubusercontent.com/15622730/225251157-4c0fcb81-815d-4a7b-8c84-86f781e8bc54.png)
+
+Setelah di clone menggunakan git bash kemudian masuk ke direktori repo di PC kita. Lakukan add remote heroku sesuai nama aplikasi yang sudah kita buat di heroku dengan perintah
+
+![image](https://user-images.githubusercontent.com/15622730/225250979-5ad92c7f-15e6-47c7-8a4c-d2daf8ce01cf.png)
+```sh
+heroku git:remote -a gocroot
+```
+
+```sh
+test
+```
+
+
+
 
 
 
