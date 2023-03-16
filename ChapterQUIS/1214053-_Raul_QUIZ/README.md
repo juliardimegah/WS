@@ -7,7 +7,7 @@ berikut gambarnya
 ![image](https://github.com/kerjabhakti/WS/blob/main/ChapterQUIS/pengumpulantugas/1214053-_Raul/foto/RESPONDARIPIPEDREAM.png?raw=true)
 kita melakukan get dari html dan memunculakan hasil respon yang kita ke dalam pipe dream dan hasilnya sudah masuk kita melakkukan POST
 
-![image](https://github.com/kerjabhakti/WS/blob/main/ChapterQUIS/pengumpulantugas/1214053-_Raul/foto/muncul%20respon%20pipe%20dream.png?raw=true)
+![image](https://github.com/kerjabhakti/WS/blob/main/ChapterQUIS/1214053-_Raul/foto/muncul%20respon%20pipe%20dream.png?raw=true)
 ini adalah gambar hasil dari respon POST yang barusan kita lakukan di gambar di atas isinya nama raul dan alamtnya jalan depok
 ![image](https://github.com/kerjabhakti/WS/blob/main/ChapterQUIS/pengumpulantugas/1214053-_Raul/foto/console.log%20javascript.png?raw=true)
 ini adalah tugas dari pak ronni yang harus memunculkan console log dan hasilnya succees
