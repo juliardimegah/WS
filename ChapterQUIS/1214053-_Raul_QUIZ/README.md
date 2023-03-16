@@ -4,10 +4,10 @@ Hasil pengerjaan mengerjakan membuat front end menggunakan tailwaind dan memuncu
 hasil datanya sudah masuk dari si responnya dan data dari pipe dreamnya sudah masuk juga
 berikut gambarnya
 
-![image](https://github.com/kerjabhakti/WS/blob/main/ChapterQUIS/pengumpulantugas/1214053-_Raul/foto/RESPONDARIPIPEDREAM.png?raw=true)
+![image](https://github.com/kerjabhakti/WS/blob/main/ChapterQUIS/1214053-_Raul_QUIZ/foto/RESPONDARIPIPEDREAM.png?raw=true)
 kita melakukan get dari html dan memunculakan hasil respon yang kita ke dalam pipe dream dan hasilnya sudah masuk kita melakkukan POST
 
-![image](https://github.com/kerjabhakti/WS/blob/main/ChapterQUIS/pengumpulantugas/1214053-_Raul/foto/muncul%20respon%20pipe%20dream.png?raw=true)
+![image](https://github.com/kerjabhakti/WS/blob/main/ChapterQUIS/1214053-_Raul_QUIZ/foto/muncul%20respon%20pipe%20dream.png?raw=true)
 ini adalah gambar hasil dari respon POST yang barusan kita lakukan di gambar di atas isinya nama raul dan alamtnya jalan depok
 ![image](https://github.com/kerjabhakti/WS/blob/main/ChapterQUIS/pengumpulantugas/1214053-_Raul/foto/console.log%20javascript.png?raw=true)
 ini adalah tugas dari pak ronni yang harus memunculkan console log dan hasilnya succees
@@ -164,13 +164,13 @@ function GetResponse(result) {
 MEMUNCULKAN HASIL PUBLISH PACKAGE struct, package, testing,
 BERIKUT GAMBARNYA  
 
-![image](https://github.com/kerjabhakti/WS/blob/main/ChapterQUIS/pengumpulantugas/1214053-_Raul/foto/struck.png?raw=true)
+![image](https://github.com/kerjabhakti/WS/blob/main/ChapterQUIS/1214053-_Raul_QUIZ/foto/struck.png?raw=true)
 ini adlaha struck yang kita buat berisi 5 element ada karyawan,jamkerja,presensi,lokasi,geometry
-![image](https://github.com/kerjabhakti/WS/blob/main/ChapterQUIS/pengumpulantugas/1214053-_Raul/foto/testgolang.png?raw=true)
+![image](https://github.com/kerjabhakti/WS/blob/main/ChapterQUIS/1214053-_Raul_QUIZ/foto/testgolang.png?raw=true)
 kita melakukan testing menggunakan GO test dan berhasil
-![image](https://github.com/kerjabhakti/WS/blob/main/ChapterQUIS/pengumpulantugas/1214053-_Raul/foto/hasilfolder.png?raw=true)
+![image](https://github.com/kerjabhakti/WS/blob/main/ChapterQUIS/1214053-_Raul_QUIZ/foto/hasilfolder.png?raw=true)
 berikut hasil go tests barusan sudah masuk kedalam mongo dbnya
-![image](https://github.com/kerjabhakti/WS/blob/main/ChapterQUIS/pengumpulantugas/1214053-_Raul/foto/hasil%20test%20masuk%20ke%20mongo.png?raw=true)
+![image](https://github.com/kerjabhakti/WS/blob/main/ChapterQUIS/1214053-_Raul_QUIZ/foto/hasil%20test%20masuk%20ke%20mongo.png?raw=true)
 dan ini hasilnya masukkkk
 
 berikut kodingannyanya dan isi importnya

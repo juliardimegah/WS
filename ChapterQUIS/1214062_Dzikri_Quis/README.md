@@ -6,6 +6,7 @@ FRONTEND :
 
 Berikut Source Code nya :
 
+```go
 
 <!doctype html>
 <html lang="en">
@@ -120,7 +121,7 @@ Berikut Source Code nya :
 </body>
 </html>
 
-
+```
 
 Dan berikut outputnya : 
 
@@ -135,6 +136,8 @@ Dan berikut outputnya :
 2. Kemudian membuat file dan fungsi JS untuk membaca file API pada Console Log dan test live server aplikasi dan pipedream
 
 Berikut Source Codenya :
+
+```go
 
 function PostSignUp(namadepan,namabelakang,email,password){
     var myHeaders = new Headers();
@@ -173,6 +176,8 @@ function PushButton(){
     PostSignUp(namadepan,namabelakang,email,password);
 }
 
+ ```
+
 Dan berikut Outputnya :
 
 ![image](https://github.com/Dzikri7/WS/blob/main/ChapterQUIS/1214062_Dzikri_Quis/Foto/Pipedream.png?raw=true)
@@ -187,8 +192,10 @@ Dan berikut Outputnya :
 
 Berikut Source Code nya :
 
+ ```sh
 mongodb+srv://1214062:<password>@dz.dziwrzx.mongodb.net/test
-
+ ```
+ 
 Dan berikut outputnya :
 
 MongoDB :
@@ -215,6 +222,8 @@ BACKEND :
 Berikut Source Codenya :
 
 A. Struck
+
+```go
 
 package punyadz
 
@@ -264,7 +273,11 @@ type Geometry struct {
 	Coordinates interface{} `json:"coordinates" bson:"coordinates"`
 }
 
+```
+
 B. Function
+
+```go
 
 package punyadz
 
@@ -320,7 +333,11 @@ func GetKaryawanFromPhoneNumber(phone_number string) (staf Presensi) {
 	return staf
 }
 
+```
+
 3. Test
+
+```go
 
 package punyadz
 
@@ -350,6 +367,8 @@ func TestGetKaryawanFromPhoneNumber(t *testing.T) {
 	biodata := GetKaryawanFromPhoneNumber(phonenumber)
 	fmt.Println(biodata)
 }
+
+```
 
 Dan berikut adalah hasil output di MongoDB dan MongoDBCompass :
 
