@@ -20,7 +20,7 @@ Selamat mengerjakan
 | NPM      | Nama | 1 | 
 | ----------- | ----------- | ----------- |
 | 1214058      |Firda Yulianti | 0 |
-| 1214053      |Raul Mahya Komaran | 0 |
+| 1214053      |Raul Mahya Komaran | 100 |
 | 1214056      |Rachma Nurhaliza Parindra | 0 |
 | 1214085     |Fitrah Ali Akbar Setiawan | 0 |
 | 1214081      |Ibrohim Mubarok | 0 |
