@@ -340,6 +340,13 @@ func TestGetKaryawanFromPhoneNumber(t *testing.T) {
 ```
 
 
+Kompilasi dependensi dengan perintah
+
+```sh
+go mod tidy
+```
+
+
 # Lakukan go.test
 
  ![image](https://github.com/kerjabhakti/WS/blob/main/ChapterQUIS/1214078_Maulana_QUIS/foto/6.%20go%20test.png?raw=true)
