@@ -1,4 +1,4 @@
-module github.com/kerjabhakti/WS/Chapter03/coba
+module github.com/Dzikri7/WS/ChapterQUIS/1214062_Dzikri_Quis/Backend
 
 go 1.20
 
