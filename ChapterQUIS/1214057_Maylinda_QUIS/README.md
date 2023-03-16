@@ -7,6 +7,7 @@ Langkah Pertama = Membuat folder dengan format npm_nama_quiz, setelah itu membua
 Setelah itu, membuat tampilan frontend yang disimpan dalam file index.html
 
 
+```
 <!doctype html>
 <html lang="en">
 <head>
@@ -108,15 +109,211 @@ Setelah itu, membuat tampilan frontend yang disimpan dalam file index.html
     </div>
 </div>
 
-<!-- BUY ME A BEER AND HELP SUPPORT OPEN-SOURCE RESOURCES -->
-<div class="flex items-end justify-end fixed bottom-0 right-0 mb-4 mr-4 z-10">
-    <div>
-        <a title="Buy me a beer" href="https://www.buymeacoffee.com/scottwindon" target="_blank" class="block w-16 h-16 rounded-full transition-all shadow hover:shadow-lg transform hover:scale-110 hover:rotate-12">
-            <img class="object-cover object-center w-full h-full rounded-full" src="https://i.pinimg.com/originals/60/fd/e8/60fde811b6be57094e0abc69d9c2622a.jpg"/>
-        </a>
-    </div>
-</div>
 <script src="test.js"></script>
 </body>
 </html>
+```
+
+Setelah index.html sudah dibuat, kita membuka pipedream untuk melihat code yang akan disimpan dalam file javascript. Langkah selanjutnya adalah membuat file javascript yang sudah terhubungkan dengan file index.html
+
+``````
+function PostSignUp(namadepan,namabelakang,email,password){
+    var myHeaders = new Headers();
+    myHeaders.append("Login", "maylindachristy");
+    myHeaders.append("Content-Type", "application/json");
+
+    var raw = JSON.stringify({
+        "namadepan": namadepan,
+        "namabelakang": namabelakang,
+        "email": email,
+        "password": password
+    });
+
+    var requestOptions = {
+        method: 'POST',
+        headers: myHeaders,
+        body: raw,
+        redirect: 'follow'
+    };
+
+    fetch("https://eoufwscpg27u0vl.m.pipedream.net", requestOptions)
+        .then(response => response.text())
+        .then(result => console.log(result))
+        .catch(error => console.log('error', error));
+}
+
+function PushButton(){
+    namadepan=document.getElementById("namadepan").value;
+    namabelakang=document.getElementById("namabelakang").value;
+    email=document.getElementById("email").value;
+    password=document.getElementById("password").value;
+    PostSignUp(namadepan,namabelakang,email,password);
+}
+``````
+
+Berikut ini adalah dari tampilan frontend yang sudah dibuat
+<img width="950" alt="Tampilan UI" src="https://user-images.githubusercontent.com/98601730/225652987-16bab196-7845-4e85-bee0-6f54162bbeed.png">
+
+Jika pada frontend sudah dimasukkan data, maka akan muncul event pada pipedream seperti berikut 
+<img width="668" alt="Event Pipedream" src="https://user-images.githubusercontent.com/98601730/225656924-cb85bebe-5a4b-43a0-b86c-a19b55571b6f.png">
+
+Dan hasilnya adalah sebagai berikut 
+<img width="669" alt="Hasil Pipedream" src="https://user-images.githubusercontent.com/98601730/225656999-82481328-0fe5-46c0-b730-61e50af41c68.png">
+
+
+Langkah berikutnya adalah membuat bahasa go yang akan dimasukkan ke dalam folder backend, cara membuat backend ini sama seperti pada langkah yang dilakukan pada chapter 03.
+
+Berikut adalah codingan dari back end
+type.go
+``````
+package maylindaquis
+
+import (
+	"go.mongodb.org/mongo-driver/bson/primitive"
+)
+
+type Karyawan struct {
+	ID           primitive.ObjectID `bson:"_id,omitempty" json:"_id,omitempty"`
+	Nama         string             `bson:"nama,omitempty" json:"nama,omitempty"`
+	Phone_number string             `bson:"phone_number,omitempty" json:"phone_number,omitempty"`
+	Jabatan      string             `bson:"jabatan,omitempty" json:"jabatan,omitempty"`
+	Jam_kerja    []JamKerja         `bson:"jam_kerja,omitempty" json:"jam_kerja,omitempty"`
+	Hari_kerja   []string           `bson:"hari_kerja,omitempty" json:"hari_kerja,omitempty"`
+}
+
+type JamKerja struct {
+	Durasi     int      `bson:"durasi,omitempty" json:"durasi,omitempty"`
+	Jam_masuk  string   `bson:"jam_masuk,omitempty" json:"jam_masuk,omitempty"`
+	Jam_keluar string   `bson:"jam_keluar,omitempty" json:"jam_keluar,omitempty"`
+	Gmt        int      `bson:"gmt,omitempty" json:"gmt,omitempty"`
+	Hari       []string `bson:"hari,omitempty" json:"hari,omitempty"`
+	Shift      int      `bson:"shift,omitempty" json:"shift,omitempty"`
+	Piket_tim  string   `bson:"piket_tim,omitempty" json:"piket_tim,omitempty"`
+}
+
+type Presensi struct {
+	ID           primitive.ObjectID `bson:"_id,omitempty" json:"_id,omitempty"`
+	Longitude    float64            `bson:"longitude,omitempty" json:"longitude,omitempty"`
+	Latitude     float64            `bson:"latitude,omitempty" json:"latitude,omitempty"`
+	Location     string             `bson:"location,omitempty" json:"location,omitempty"`
+	Phone_number string             `bson:"phone_number,omitempty" json:"phone_number,omitempty"`
+	Datetime     primitive.DateTime `bson:"datetime,omitempty" json:"datetime,omitempty"`
+	Checkin      string             `bson:"checkin,omitempty" json:"checkin,omitempty"`
+	Biodata      Karyawan           `bson:"biodata,omitempty" json:"biodata,omitempty"`
+}
+
+type Lokasi struct {
+	ID       primitive.ObjectID `bson:"_id,omitempty" json:"_id,omitempty"`
+	Nama     string             `bson:"nama,omitempty" json:"nama,omitempty"`
+	Batas    Geometry           `bson:"batas,omitempty" json:"batas,omitempty"`
+	Kategori string             `bson:"kategori,omitempty" json:"kategori,omitempty"`
+}
+
+type Geometry struct {
+	Type        string      `json:"type" bson:"type"`
+	Coordinates interface{} `json:"coordinates" bson:"coordinates"`
+}
+``````
+Setelah selesai membuat code seperti di atas, lalu melakukan langkah go init dan go mod tidy sehingga menghasilkan code go.mod dan go.sum. Jika go.mod dan go.sum sudah terinput ke dalam vscode, lalu membuat file maylinda.go
+
+``````
+package maylindaquis
+
+import (
+	"context"
+	"fmt"
+	"os"
+	"time"
+
+	"go.mongodb.org/mongo-driver/bson/primitive"
+	"go.mongodb.org/mongo-driver/mongo"
+	"go.mongodb.org/mongo-driver/mongo/options"
+	"gopkg.in/mgo.v2/bson"
+)
+
+var MongoString string = os.Getenv("MONGOSTRING")
+
+func MongoConnect(dbname string) (db *mongo.Database) {
+	client, err := mongo.Connect(context.TODO(), options.Client().ApplyURI(MongoString))
+	if err != nil {
+		fmt.Printf("MongoConnect: %v\n", err)
+	}
+	return client.Database(dbname)
+}
+
+func InsertOneDoc(db string, collection string, doc interface{}) (insertedID interface{}) {
+	insertResult, err := MongoConnect(db).Collection(collection).InsertOne(context.TODO(), doc)
+	if err != nil {
+		fmt.Printf("InsertOneDoc: %v\n", err)
+	}
+	return insertResult.InsertedID
+}
+
+func InsertPresensi(long float64, lat float64, lokasi string, phonenumber string, checkin string, biodata Karyawan) (InsertedID interface{}) {
+	var presensi Presensi
+	presensi.Latitude = long
+	presensi.Longitude = lat
+	presensi.Location = lokasi
+	presensi.Phone_number = phonenumber
+	presensi.Datetime = primitive.NewDateTimeFromTime(time.Now().UTC())
+	presensi.Checkin = checkin
+	presensi.Biodata = biodata
+	return InsertOneDoc("adorable", "presensi", presensi)
+}
+
+func GetKaryawanFromPhoneNumber(phone_number string) (staf Presensi) {
+	karyawan := MongoConnect("adorable").Collection("presensi")
+	filter := bson.M{"phone_number": phone_number}
+	err := karyawan.FindOne(context.TODO(), filter).Decode(&staf)
+	if err != nil {
+		fmt.Printf("getKaryawanFromPhoneNumber: %v\n", err)
+	}
+	return staf
+}
+
+``````
+Dan membuat file maylinda_test.go
+
+``````
+package maylindaquis
+
+import (
+	"fmt"
+	"testing"
+)
+
+func TestInsertPresensi(t *testing.T) {
+	long := 98.345345
+	lat := 123.561651
+	lokasi := "rumah"
+	phonenumber := "6811110023231"
+	checkin := "masuk"
+	biodata := Karyawan{
+		Nama:         "ujang",
+		Phone_number: "6284564562",
+		Jabatan:      "tukang sapu",
+	}
+	hasil := InsertPresensi(long, lat, lokasi, phonenumber, checkin, biodata)
+	fmt.Println(hasil)
+
+}
+
+func TestGetKaryawanFromPhoneNumber(t *testing.T) {
+	phonenumber := "6811110023231"
+	biodata := GetKaryawanFromPhoneNumber(phonenumber)
+	fmt.Println(biodata)
+}
+``````
+
+Setelah semua file sudah selesai dibuat, lakukan go test. Berikut adalah hasil go test
+
+
+<img width="755" alt="Hasil Go Test" src="https://user-images.githubusercontent.com/98601730/225657168-21515be8-1ec9-43c9-a197-97f5b0d247d8.png">
+
+Jika go test sudah berhasil, maka pada aplikasi mongocompas akan muncul database seperti berikut
+
+<img width="957" alt="Hasil Database" src="https://user-images.githubusercontent.com/98601730/225657318-fd32569a-414c-4bfa-a385-23b361ca4752.png">
+
+
+
 
