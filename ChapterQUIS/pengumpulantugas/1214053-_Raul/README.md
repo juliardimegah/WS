@@ -91,7 +91,7 @@ function GetResponse(result) {
     <div class="bg-blue-100 text-purple-500 rounded-3xl shadow-xl w-full overflow-hidden" style="max-width:1000px">
         <div class="md:flex w-full">
             <div class="h-screen w-1/2 bg-blue-600">
-                <img src="https://th.bing.com/th/id/OIP.tE9O0XLWx4M-z3-2ukijHgHaEK?pid=ImgDet&rs=1" class="h-full w-full" />
+                <img src="" class="h-full w-full" />
             </div>
             <div id="formsignup" class="w-full md:w-1/2 py-10 px-5 md:px-10">
                 <div class="text-center mb-10">
