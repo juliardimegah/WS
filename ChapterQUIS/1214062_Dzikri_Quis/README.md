@@ -122,9 +122,9 @@ Berikut Source Code nya :
 
 Dan berikut outputnya : 
 
-![img 1](ScreenShots/Console_Log.png)
+![image](ScreenShots/Console_Log.png)
 
-![img 2](ScreenShots/Console_Log_2.png)
+![image](ScreenShots/Console_Log_2.png)
 
 
 
@@ -171,11 +171,11 @@ function PushButton(){
 
 Dan berikut Outputnya :
 
-![img 3](ScreenShots/Pipedream.png)
+![image](ScreenShots/Pipedream.png)
 
-![img 4](ScreenShots/Pipedream_2.png)
+![image](ScreenShots/Pipedream_2.png)
 
-![img 5](ScreenShots/Pipedream_3.png)
+![image](ScreenShots/Pipedream_3.png)
 
 
 
@@ -189,17 +189,17 @@ Dan berikut outputnya :
 
 MongoDB :
 
-![img 6](ScreenShots/MongoDB.png)
+![image](ScreenShots/MongoDB.png)
 
-![img 7](ScreenShots/MongoDB_2.png)
+![image](ScreenShots/MongoDB_2.png)
 
-![img 8](ScreenShots/MongoDB_3.png)
+![image](ScreenShots/MongoDB_3.png)
 
 MongoDBCompass :
 
-![img 9](ScreenShots/MongoDBCompass.png)
+![image](ScreenShots/MongoDBCompass.png)
 
-![img 10](ScreenShots/MongoDBCompass_2.png)
+![image](ScreenShots/MongoDBCompass_2.png)
 
 
 
@@ -351,17 +351,17 @@ Dan berikut adalah hasil output di MongoDB dan MongoDBCompass :
 
 a. MongoDB
 
-![img 11](ScreenShots/MongoDB_4.png)
+![image](ScreenShots/MongoDB_4.png)
 
 b. MongoDBCompass
 
-![img 12](ScreenShots/MongoDBCompass_3.png)
+![image](ScreenShots/MongoDBCompass_3.png)
 
 
 2. Dan terakhir, berikut adalah hasil test beserta screenshots terminalnya
 
-![img 13](ScreenShots/Terminal.png)
+![image](ScreenShots/Terminal.png)
 
-![img 14](ScreenShots/Terminal_2.png)
+![image](ScreenShots/Terminal_2.png)
 
 
