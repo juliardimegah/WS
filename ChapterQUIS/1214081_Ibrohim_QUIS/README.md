@@ -121,7 +121,7 @@ Untuk menghubungkan mongodb dengan komputer kita perlu menambahkannya pada syste
 
 ![6](https://user-images.githubusercontent.com/93715182/225526808-f8f4a8cf-5a09-4a99-942a-60302b32255d.png)
 
-kita menambahkan "GOPROXY" dan "MONGOSTRING"
+kita menambahkan "GOPROXY" dan "MONGOSTRING", value MONGOSTRING dapat kita ambil dari mongo atlas kita masing masing dan sesuaikan passwordnya
 
 # golang
 
