@@ -212,7 +212,8 @@ Hasil dalam Pipedream:
 
 # Membuat BACKEND GO
 
-Kegiatan kedua kita akan membuat Backend GO. berikut adalah tahapannya.
+Kegiatan kedua kita akan membuat Backend GO. Sebelumnya kita perlu membuat Database nya terlebih dahulu menggunakan MONGODB di Atlas, selanjutnya sambungkan database tersebut dengan aplikasi mongodb compass. Setelah semuanya selesai, kita dapat langsung membuat backend go.
+Berikut adalah tahapannya.
 
 ## Membuat Mod
 
@@ -372,3 +373,10 @@ func TestGetKaryawanFromPhoneNumber(t *testing.T) {
 	fmt.Println(biodata)
 }
 ```
+Setelah itu, jalankan perintah berikut:
+```
+go test
+```
+Hasil dari terminal dan dalam MongoDB Compass setelah dilakukan semua kegiatan tersebut:
+![image](https://github.com/adam-ghafara/WS/blob/main/ChapterQUIS/1214064_AdamGhafara_Quis/foto/Screenshot_2675.png?raw=true)
+![image](https://github.com/adam-ghafara/WS/blob/main/ChapterQUIS/1214064_AdamGhafara_Quis/foto/Screenshot_2676.png?raw=true)
