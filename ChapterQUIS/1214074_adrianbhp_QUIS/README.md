@@ -74,8 +74,11 @@ Source Code :
 
 Hasil dari tampilan Front End
 
+![image](https://github.com/AdrianBhp43/WS/blob/main/ChapterQUIS/1214074_adrianbhp_QUIS/foto/Dashboard%20UI.png?raw=true)
 
 Hasil dari tampilan Pipedream
+
+![image](![image](https://github.com/AdrianBhp43/WS/blob/main/ChapterQUIS/1214074_adrianbhp_QUIS/foto/Dashboard%20UI.png?raw=true)
 
 #Selanjutnya, dibawah ini merupakan source code dari file first.js yang berfungsi untuk menarik API
 
@@ -114,11 +117,11 @@ function PostSignUp(namalengkap,email,password){
 #Membuat database menggunakan MongoDB Compass dan MongoDB
 
 Output dari MongoDB Compass
-
+![image](https://github.com/AdrianBhp43/WS/blob/main/ChapterQUIS/1214074_adrianbhp_QUIS/foto/Berhasil.png?raw=true)
 
 Output dari MongoDB
 
-
+![image](https://github.com/AdrianBhp43/WS/blob/main/ChapterQUIS/1214074_adrianbhp_QUIS/foto/Dashboard%20UI.png?raw=true)
 
 # Membuat Backend menggunakan Go
 
@@ -276,4 +279,8 @@ func TestGetKaryawanFromPhoneNumber(t *testing.T) {
 	fmt.Println(biodata)
 }
 ```
+#Output Golang
+
+![image](https://github.com/AdrianBhp43/WS/blob/main/ChapterQUIS/1214074_adrianbhp_QUIS/foto/Output%20Golang.png?raw=true)
+
 ````
