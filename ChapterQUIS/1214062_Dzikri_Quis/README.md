@@ -120,11 +120,15 @@ Berikut Source Code nya :
 </body>
 </html>
 
+
+
 Dan berikut outputnya : 
 
 ![image](https://github.com/Dzikri7/WS/blob/main/ChapterQUIS/1214062_Dzikri_Quis/Foto/Console_Log.png?raw=true)
 
 ![image](https://github.com/Dzikri7/WS/blob/main/ChapterQUIS/1214062_Dzikri_Quis/Foto/Console_Log_2.png?raw=true)
+
+
 
 
 
@@ -171,11 +175,11 @@ function PushButton(){
 
 Dan berikut Outputnya :
 
-![image](ScreenShots/Pipedream.png)
+![image](https://github.com/Dzikri7/WS/blob/main/ChapterQUIS/1214062_Dzikri_Quis/Foto/Pipedream.png?raw=true)
 
-![image](ScreenShots/Pipedream_2.png)
+![image](https://github.com/Dzikri7/WS/blob/main/ChapterQUIS/1214062_Dzikri_Quis/Foto/Pipedream_2.png?raw=true)
 
-![image](ScreenShots/Pipedream_3.png)
+![image](https://github.com/Dzikri7/WS/blob/main/ChapterQUIS/1214062_Dzikri_Quis/Foto/Pipedream_3.png?raw=true)
 
 
 
@@ -189,17 +193,17 @@ Dan berikut outputnya :
 
 MongoDB :
 
-![image](ScreenShots/MongoDB.png)
+![image](https://github.com/Dzikri7/WS/blob/main/ChapterQUIS/1214062_Dzikri_Quis/Foto/MongoDB.png?raw=true)
 
-![image](ScreenShots/MongoDB_2.png)
+![image](https://github.com/Dzikri7/WS/blob/main/ChapterQUIS/1214062_Dzikri_Quis/Foto/MongoDB_2.png?raw=true)
 
-![image](ScreenShots/MongoDB_3.png)
+![image](https://github.com/Dzikri7/WS/blob/main/ChapterQUIS/1214062_Dzikri_Quis/Foto/MongoDB_3.png?raw=true)
 
 MongoDBCompass :
 
-![image](ScreenShots/MongoDBCompass.png)
+![image](https://github.com/Dzikri7/WS/blob/main/ChapterQUIS/1214062_Dzikri_Quis/Foto/MongoDBCompass.png?raw=true)
 
-![image](ScreenShots/MongoDBCompass_2.png)
+![image](https://github.com/Dzikri7/WS/blob/main/ChapterQUIS/1214062_Dzikri_Quis/Foto/MongoDBCompass_2.png?raw=true)
 
 
 
@@ -351,17 +355,17 @@ Dan berikut adalah hasil output di MongoDB dan MongoDBCompass :
 
 a. MongoDB
 
-![image](ScreenShots/MongoDB_4.png)
+![image](https://github.com/Dzikri7/WS/blob/main/ChapterQUIS/1214062_Dzikri_Quis/Foto/MongoDB_4.png?raw=true)
 
 b. MongoDBCompass
 
-![image](ScreenShots/MongoDBCompass_3.png)
+![image](https://github.com/Dzikri7/WS/blob/main/ChapterQUIS/1214062_Dzikri_Quis/Foto/MongoDBCompass_3.png?raw=true)
 
 
 2. Dan terakhir, berikut adalah hasil test beserta screenshots terminalnya
 
-![image](ScreenShots/Terminal.png)
+![image](https://github.com/Dzikri7/WS/blob/main/ChapterQUIS/1214062_Dzikri_Quis/Foto/Terminal.png?raw=true)
 
-![image](ScreenShots/Terminal_2.png)
+![image](https://github.com/Dzikri7/WS/blob/main/ChapterQUIS/1214062_Dzikri_Quis/Foto/Terminal_2.png?raw=true)
 
 
