@@ -1,5 +1,6 @@
 # Lokasi File
 
+<<<<<<< HEAD
 
 
 # 1. JAVA SCRIPT
@@ -375,5 +376,124 @@ go mod tidy
 
 
 
+=======
+![1](https://user-images.githubusercontent.com/93715182/225514726-89011311-9721-4e42-a6a1-50720bd6362b.png)
+
+Folder "Foto Bukti" berisi foto foto yang membuktikan bahwa aplikasi ini berhasil, sedangkan folder "SourceCode" adalah folder untuk menyimpan semua source code aplikasi
+
+![2](https://user-images.githubusercontent.com/93715182/225515065-91ed3299-1ee4-4c56-9596-dda9e5cfe8f8.png)
+
+Gambar diatas adalah isi dari folder SourceCode, index.html berada pada folder public
+
+![3](https://user-images.githubusercontent.com/93715182/225515294-d4204475-481d-4573-8581-72640836ccbe.png)
+
+Javascript yang menghubungkan aplikasi dengan pipedream ada pada folder js dan golang yang terhubung dengan mongodb ada di folder golang
+
+# index.html
+Berikut adalah isi index.html
+```go
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Page title</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="https://rsms.me/inter/inter.css">
+    <link rel="stylesheet" href="css/tailwind/tailwind.min.css">
+    <link rel="icon" type="image/png" sizes="32x32" href="shuffle-for-tailwind.png">
+    <script src="js/main.js"></script>
+</head>
+<body class="antialiased bg-body text-body font-body">
+    <div class="">
+                
+      <section class="relative py-20">
+        <img class="hidden lg:block absolute top-0 left-0 mt-16 z-10" src="zeus-assets/icons/dots/blue-dot-left-bars.svg" alt="">
+        <img class="hidden lg:block absolute bottom-0 right-0 mb-16" src="zeus-assets/icons/dots/yellow-dot-right-shield.svg" alt="">
+        <div class="absolute top-0 left-0 lg:bottom-0 h-128 lg:h-auto w-full lg:w-8/12 bg-gray-50"></div>
+        <div class="relative container px-4 mx-auto">
+          <div class="flex flex-wrap items-center -mx-4">
+            <div class="w-full lg:w-1/2 px-4 mb-12 lg:mb-0">
+              <div class="max-w-lg">
+                <h2 class="mb-10 text-4xl font-semibold font-heading">Organisasi Mahasiswa</h2>
+                <p class="text-xl text-gray-500">Bergabungla dengan kami agar anda dapat mengetahui info terbaru mengenai berita - berita kampus ULBI.</p>
+              </div>
+            </div>
+            <div class="w-full lg:w-1/2 px-4">
+              <div class="lg:max-w-md p-6 lg:px-10 lg:py-12 bg-white text-center border rounded-xl">
+                <form action="#">
+                  <span class="inline-block mb-4 text-xs text-blue-400 font-semibold">Sign Up</span>
+                  <h3 class="mb-12 text-3xl font-semibold font-heading">Create new account</h3>
+                  <div class="relative flex flex-wrap mb-6">
+                    <input class="relative mb-2 md:mb-0 w-full py-4 pl-4 text-sm border rounded" id="email" type="email" placeholder="ibrohim@gmail.com">
+                    <span class="absolute top-0 left-0 ml-4 -mt-2 px-1 inline-block bg-white text-gray-500 text-xs">Your email address</span>
+                  </div>
+                  <div class="relative flex flex-wrap mb-6">
+                    <input class="relative mb-2 md:mb-0 w-full py-4 pl-4 text-sm border rounded" id="password" type="password" placeholder="******">
+                    <span class="absolute top-0 left-0 ml-4 -mt-2 px-1 inline-block bg-white text-gray-500 text-xs">Password</span>
+                  </div>
+                  <button onclick="Daftar()" class="w-full inline-block py-4 text-sm text-white font-medium leading-normal bg-red-400 hover:bg-red-300 rounded transition duration-200">Get Started</button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+<script src="js/lol.js"></script>
+  </body>
+</html>
+```
+Berikut adalah tampilan index.htm
+![4](https://user-images.githubusercontent.com/93715182/225515962-8814307f-ff94-4620-b62d-ef75d4d434a5.png)
+
+Berikut ini adalah javascript yang terhubung dengan index.html, yang bernama lol.js
+
+```go
+function Daftar(){
+    email=document.getElementById("email").value;
+    password=document.getElementById("password").value;
+    PostSignUp(email,password);
+  }
+  
+  function PostSignUp(email,password){
+    var myHeaders = new Headers();
+myHeaders.append("Login", "asalasallogin");
+myHeaders.append("Content-Type", "application/json");
+
+var raw = JSON.stringify({
+  "email": email,
+  "password": password
+});
+
+var requestOptions = {
+  method: 'POST',
+  headers: myHeaders,
+  body: raw,
+  redirect: 'follow'
+};
+
+fetch("https://eoz9iiqe1jrod42.m.pipedream.net", requestOptions)
+  .then(response => response.text())
+  .then(result => console.log(result))
+  .catch(error => console.log('error', error));
+  }
+  
+  function GetResponse(result){
+    document.getElementById("formsignup").innerHTML = result;
+}
+```
+Javascript di atas berguna untuk mengirimkan dapat ke pipedream dan memunculkan console.log
+
+# Testing Aplikasi
+
+Jalankan aplikasi menggunakan live server dan isi form yang disediakan oleh aplikasi
+
+![Pipedream1](https://user-images.githubusercontent.com/93715182/225517172-8d160915-17e1-46cc-a4ce-f62df431b482.png)
+
+Setelah menekan "Get Started" data form yang diisi tadi akan masuk ke pipedream
+
+![5](https://user-images.githubusercontent.com/93715182/225517278-28dfedce-7493-44d3-bb3b-03346e280605.png)
+>>>>>>> 6bd4c6e48e6719940090dfb9c9343d5f6cb509aa
 
 
