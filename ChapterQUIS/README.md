@@ -8,7 +8,7 @@ Langkah yang harus dilakukan
 4. Masukan fungsi kedalam file JS
 5. Tambahkan README.md untuk menjelaskan alur prosesnya
 6. Masukan screenshoot tahapan + masukan sourcecode nya pada readme
-7. Lakukan full request di Chapter04_QUIS
+7. Lakukan full request di ChapterQUIS
 8. Jika sudah boleh pulang
 
 Selamat mengerjakan
