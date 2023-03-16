@@ -8,7 +8,7 @@ function PushButton(){
 
 function PostSignUp(namadepan,namabelakang,email,password){
     var myHeaders = new Headers();
-    myHeaders.append("Login", "maulanaganteng");
+    myHeaders.append("Login", "chapterquis_maulanaquis");
     myHeaders.append("Content-Type", "application/json");
 
     var raw = JSON.stringify({
@@ -32,5 +32,6 @@ function PostSignUp(namadepan,namabelakang,email,password){
     }
     function GetResponse(result) {
         document.getElementById("formsignup").innerHTML = result;
+        
         console.log(result)
       }
