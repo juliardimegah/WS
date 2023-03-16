@@ -17,7 +17,7 @@ Selamat mengerjakan
 
 ## Daftar Nilai QUIS
 
-| NPM      | Nama | 1 | 
+| NPM      | Nama | Nilai Quis | 
 | ----------- | ----------- | ----------- |
 | 1214058      |Firda Yulianti | 0 |
 | 1214053      |Raul Mahya Komaran | 100 |
