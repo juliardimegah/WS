@@ -151,10 +151,14 @@ function GetResponse(result) {
         </div>
     </div>
 </div>
-
 <script src="./gj.js"></script>
 </body>
 </html>
+
+
+
+
+
 # TUGAS 2 GOLANG
 
 MEMUNCULKAN HASIL PUBLISH PACKAGE struct, package, testing,
