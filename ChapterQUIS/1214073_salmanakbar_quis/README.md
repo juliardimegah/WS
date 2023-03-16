@@ -1,9 +1,10 @@
-BAGIAN 1        Cara Membuat Form Register Agar datanya Bisa tampil Pada PipeDream
-1.Membuat Folder FronEnd 
+# BAGIAN 1        Cara Membuat Form Register Agar datanya Bisa tampil Pada PipeDream
+## 1.Membuat Folder FrontEnd 
+Membuat Folder FrontEnd pada ChapterQUIS/npm_nama
 
-2.Membuat File Index HTML 
+## 2.Membuat File Index HTML 
 Index HTML berfungsi untuk membuat kerangka Form Registernya, berikut ini adalah File index HTML
-
+```
 <html lang="en"><head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -97,4 +98,267 @@ Index HTML berfungsi untuk membuat kerangka Form Registernya, berikut ini adalah
 </div>
 <script src="Program.js"></script>
 </body></html>
+```
+Dibawah terdapat script javascript, script java script tersebut berfungsi untuk menghubungkan Html ke dalam pipedream. Berikut tampilan kode html diatas
+
+![](Pict/1.png)
+
+## 3.Mengintegrasikan HTML Dan JavaScript
+### 3.1 Membuat File javascript didalam folder FontEnd
+Membuat file js dengan nama Program.Js 
+Setelah itu Masuk kedalam Pipedream buat New WorkFlows di pipedream
+![](pict/pipedream.png)
+Pilih New HTTP/WebHook Request. Setelah itu ganti Event data menjadi Raw Request
+![](Pict/pipedream2.png)
+
+Selanjunya Save,  setelah di save copy code pada pipedream lalu buka postman
+![](Pict/Screenshot%202023-03-16%20153822.png)
+
+### 3.2 Mengisikan Script Pada File Program.Js
+Untuk Mengintegrasikan inputan data agar bisa terkirim dan tersimpan dari index.html kedalam pipedream. bukalah Postman
+lalu tempelkan kode dari pipedream yang tadi sudah di dapatkan
+
+![](Pict/postman.png)
+salin source code javascriptnya lalu masukan kedalam Program.js. setelah itu sesuaikan dengan index.htmlnya setiap variablenya
+
+```
+function PostSignUp(firstname,lastname,email,password,confirm_password){
+  var myHeaders = new Headers();
+  myHeaders.append("Register", "daftar jadi ganteng");
+  myHeaders.append("Content-Type", "application/json");
+
+  var raw = JSON.stringify({
+      "namadepan": firstname,
+      "namabelakang": lastname,
+      "email": email,
+      "password": password,
+      "confirm_password": confirm_password
+  });
+```
+Buatlah function PostSignUp terlebih dahulu, lalu sesuaikan variable/ id yang ada pada html.
+
+```
+  var requestOptions = {
+      method: 'POST',
+      headers: myHeaders,
+      body: raw,
+      redirect: 'follow'
+    };
+    
+    fetch("https://eofo278xbofxnve.m.pipedream.net", requestOptions)
+      .then(response => response.text())
+      .then(result => console.log(result))
+      .catch(error => console.log('error', error));}
+
+```
+Berikutnya tempelkan kode javascript yang sudah di dapatkan di postman
+
+```
+      function PushButton(){
+        firstname=document.getElementById("firstname").value;
+        lastname=document.getElementById("lastname").value;
+        email=document.getElementById("email").value;
+        password=document.getElementById("password").value;
+        confirm_password=document.getElementById("confirm_password").value;
+        PostSignUp(firstname,lastname,email,password,confirm_password);
+      }
+      function GetResponse(result){
+        document.getElementById("formsignup").innerHTML = result;
+    }
+```
+yang terakhir membuat function Pushbutton.  
+jika sudah jalankan Live servernya pada index html, maka menampilkan halaman seperti berikut ini
+
+![](pict/1.png)
+Lalu cek ke pipedream, apakah data yang sudah inputkan sudah 
+masuk apa belum.
+![](Pict/2.png)
+
+Pada Pipedream terdapat data yang masuk, Buka lebih dalam kembali sampai seperti gambar dibawah ini
+![](Pict/3.png)
+
+# BAGIAN 2 Membuat Struct dan menghubungkan Kedalam Database MongoDB Menggunakan GoLang
+
+## 1. Sign In MongoDB
+Buka Halaman https://account.mongodb.com/account/login  login dengan akun Github/goole yang kita miliki
+![](Pict/mongodb.png)
+
+## 2. Koneksikan MongoDB atlas ke MongoDB compass
+setelah berhasil masuk kedalam mongodb, pilih connect
+![](Pict/mongodb2.png)
+Lalu Pilih Connect Using MongoDb Compass
+![](Pict/mongodb3.png/)
+
+setelah salin kodenya 
+![](Pict/mongodb4.png)
+
+Masuk kedalam MongoDb Compass, lalu pastekan kode yang baru disalin di mongodb atlas ke mongo dbcompass
+![](Pict/Screenshot%202023-03-16%20202935.png)
+Pilih connect
+
+## 3.Membuat Folder Backend dan file Go
+Buatlah Folder Backend untuk membuat struct agar bisa di sambungkan kedalam mongodb, Jika sudah Buka terminal 
+lalu mencoba untuk bisa terhubung dengan perintah
+```
+go mod init github.com/AkbarHasballah/WS/chapterQUIS/1214073_salmanakbar_quis/BackEnd
+```
+Jika sudah Buatlah file type.go yang berisikan struct, disini akan membuat struct tentang datasiswa
+```
+package datasiswa
+
+import (
+	"go.mongodb.org/mongo-driver/bson/primitive"
+)
+
+type Siswa struct {
+	ID           primitive.ObjectID `bson:"_id,omitempty" json:"_id,omitempty"`
+	Nama         string             `bson:"nama,omitempty" json:"nama,omitempty"`
+	Phone_number string             `bson:"phone_number,omitempty" json:"phone_number,omitempty"`
+	Jabatan      string             `bson:"jabatan,omitempty" json:"jabatan,omitempty"`
+
+	Hari_kerja []string `bson:"hari_kerja,omitempty" json:"hari_kerja,omitempty"`
+}
+
+type JamKelas struct {
+	Durasi     int      `bson:"durasi,omitempty" json:"durasi,omitempty"`
+	Jam_masuk  string   `bson:"jam_masuk,omitempty" json:"jam_masuk,omitempty"`
+	Jam_keluar string   `bson:"jam_keluar,omitempty" json:"jam_keluar,omitempty"`
+	Gmt        int      `bson:"gmt,omitempty" json:"gmt,omitempty"`
+	Hari       []string `bson:"hari,omitempty" json:"hari,omitempty"`
+	Shift      int      `bson:"shift,omitempty" json:"shift,omitempty"`
+	Piket_tim  string   `bson:"piket_tim,omitempty" json:"piket_tim,omitempty"`
+}
+
+type Absen struct {
+	ID           primitive.ObjectID `bson:"_id,omitempty" json:"_id,omitempty"`
+	Longitude    float64            `bson:"longitude,omitempty" json:"longitude,omitempty"`
+	Latitude     float64            `bson:"latitude,omitempty" json:"latitude,omitempty"`
+	Location     string             `bson:"location,omitempty" json:"location,omitempty"`
+	Phone_number string             `bson:"phone_number,omitempty" json:"phone_number,omitempty"`
+	Datetime     primitive.DateTime `bson:"datetime,omitempty" json:"datetime,omitempty"`
+	Checkin      string             `bson:"checkin,omitempty" json:"checkin,omitempty"`
+	Biodata      Siswa              `bson:"biodata,omitempty" json:"biodata,omitempty"`
+}
+
+type Lokasi struct {
+	ID       primitive.ObjectID `bson:"_id,omitempty" json:"_id,omitempty"`
+	Nama     string             `bson:"nama,omitempty" json:"nama,omitempty"`
+	Batas    Geometry           `bson:"batas,omitempty" json:"batas,omitempty"`
+	Kategori string             `bson:"kategori,omitempty" json:"kategori,omitempty"`
+}
+
+type Geometry struct {
+	Type        string      `json:"type" bson:"type"`
+	Coordinates interface{} `json:"coordinates" bson:"coordinates"`
+}
+```
+nah jika sudah, langkah selanjutnya kita mengkompilasi dengan perintah
+```
+go mod tidy
+```
+maka Ouputannya seperti ini
+![](picture/../Pict/go.png)
+setelah membuat type.go, berikutnya membuat file siswa.go 
+```
+package datasiswa
+
+import (
+	"context"
+	"fmt"
+	"os"
+	"time"
+
+	"go.mongodb.org/mongo-driver/bson/primitive"
+	"go.mongodb.org/mongo-driver/mongo"
+	"go.mongodb.org/mongo-driver/mongo/options"
+	"gopkg.in/mgo.v2/bson"
+)
+
+var MongoString string = os.Getenv("MONGOSTRING")
+
+func MongoConnect(dbname string) (db *mongo.Database) {
+	client, err := mongo.Connect(context.TODO(), options.Client().ApplyURI(MongoString))
+	if err != nil {
+		fmt.Printf("MongoConnect: %v\n", err)
+	}
+	return client.Database(dbname)
+}
+
+func InsertOneDoc(db string, collection string, doc interface{}) (insertedID interface{}) {
+	insertResult, err := MongoConnect(db).Collection(collection).InsertOne(context.TODO(), doc)
+	if err != nil {
+		fmt.Printf("InsertOneDoc: %v\n", err)
+	}
+	return insertResult.InsertedID
+}
+
+func InsertAbsen(long float64, lat float64, lokasi string, phonenumber string, checkin string, biodata Siswa) (InsertedID interface{}) {
+	var absen Absen
+	absen.Latitude = long
+	absen.Longitude = lat
+	absen.Location = lokasi
+	absen.Phone_number = phonenumber
+	absen.Datetime = primitive.NewDateTimeFromTime(time.Now().UTC())
+	absen.Checkin = checkin
+	absen.Biodata = biodata
+	return InsertOneDoc("adorable", "absen", absen)
+}
+
+func GetKaryawanFromPhoneNumber(phone_number string) (staf Absen) {
+	karyawan := MongoConnect("adorable").Collection("presensi")
+	filter := bson.M{"phone_number": phone_number}
+	err := karyawan.FindOne(context.TODO(), filter).Decode(&staf)
+	if err != nil {
+		fmt.Printf("getKaryawanFromPhoneNumber: %v\n", err)
+	}
+	return staf
+}
+
+```
+package "datasiswa" yang mendefinisikan berbagai fungsi untuk berinteraksi dengan database MongoDB.
+
+Berikutnya melakukan go mod tidy lagi
+
+langkah berikutnya membuat go test degan membuat file siswa_test.go 
+```
+package datasiswa
+
+import (
+	"fmt"
+	"testing"
+)
+
+func TestInsertAbsen(t *testing.T) {
+	long := 98.345345
+	lat := 123.561651
+	lokasi := "rumah"
+	phonenumber := "6811110023231"
+	checkin := "masuk"
+	biodata := Siswa{
+		Nama:         "Bos Raull",
+		Phone_number: "6284564562",
+		Jabatan:      "Kepala Suku",
+	}
+	hasil := InsertAbsen(long, lat, lokasi, phonenumber, checkin, biodata)
+	fmt.Println(hasil)
+
+}
+
+func TestGetKaryawanFromPhoneNumber(t *testing.T) {
+	phonenumber := "6811110023231"
+	biodata := GetKaryawanFromPhoneNumber(phonenumber)
+	fmt.Println(biodata)
+}
+```
+kode diatas untuk menghubungkan atau mengkoneksikan kedalam database, setelah itu save semua proses lalu buka terminal dan jalankan dengan perintah 
+```
+go test
+```
+maka hasil diterminalnya seperti berikut ini
+![](Pict/4.png)
+
+Jika berhasil Kita harus buka Mongodb Compass dan liat, apakah ada data yang masuk atau tidak, jika ada maka hasilnya seperti ini
+![](Pict/5.png)
+
+Sekian Penjelasan dari proses pengerjaan Quis Terimakasih
 
