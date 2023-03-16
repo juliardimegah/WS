@@ -174,15 +174,17 @@ function PostSignUp(namadepan,namabelakang,email,password){
  ![image](https://github.com/kerjabhakti/WS/blob/main/ChapterQUIS/1214078_Maulana_QUIS/foto/4.%20pipe%20dream%20select%20event.png?raw=true)
  ![image](https://github.com/kerjabhakti/WS/blob/main/ChapterQUIS/1214078_Maulana_QUIS/foto/5.%20pipe%20dream%20json.png?raw=true)
       
- 
+
 
 # 2. GOLANG
+
 
 # Buat Folder Backend dan lakukan Struct di golang, inisialisasi package
 
 ```sh
 go mod init github.com/kerjabhakti/WS/ChapterQUIS/1214078_Maulana_QUIS/backend
 ```
+
 
 # Buat file type.go untuk menyimpan struct
 
@@ -239,6 +241,7 @@ type Geometry struct {
 }
 
 ```
+
 
 # Buat file func.go
 
@@ -300,6 +303,7 @@ func GetKaryawanFromPhoneNumber(phone_number string) (staf Presensi) {
 
 ```
 
+
 # Buat file maulana_test.go untuk melakukan testing go
 
 ```go
@@ -335,6 +339,7 @@ func TestGetKaryawanFromPhoneNumber(t *testing.T) {
 
 ```
 
+
 # Lakukan go.test
 
  ![image](https://github.com/kerjabhakti/WS/blob/main/ChapterQUIS/1214078_Maulana_QUIS/foto/6.%20go%20test.png?raw=true)
@@ -342,6 +347,8 @@ func TestGetKaryawanFromPhoneNumber(t *testing.T) {
  Kemudian Cek Pada MongoDB Compass :
  
  ![image](https://github.com/kerjabhakti/WS/blob/main/ChapterQUIS/1214078_Maulana_QUIS/foto/2.%20mongodb.png?raw=true)
+ 
+ 
  ![image](https://github.com/kerjabhakti/WS/blob/main/ChapterQUIS/1214078_Maulana_QUIS/foto/3.%20json%20mongo%20db.png?raw=true)
 
 
