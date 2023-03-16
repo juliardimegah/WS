@@ -122,9 +122,9 @@ Berikut Source Code nya :
 
 Dan berikut outputnya : 
 
-![image](ScreenShots/Console_Log.png)
+![image](https://github.com/Dzikri7/WS/blob/main/ChapterQUIS/1214062_Dzikri_Quis/Foto/Console_Log.png?raw=true)
 
-![image](ScreenShots/Console_Log_2.png)
+![image](https://github.com/Dzikri7/WS/blob/main/ChapterQUIS/1214062_Dzikri_Quis/Foto/Console_Log_2.png?raw=true)
 
 
 
