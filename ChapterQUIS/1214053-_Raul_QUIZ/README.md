@@ -4,7 +4,7 @@ Hasil pengerjaan mengerjakan membuat front end menggunakan tailwaind dan memuncu
 hasil datanya sudah masuk dari si responnya dan data dari pipe dreamnya sudah masuk juga
 berikut gambarnya
 
-![image](https://github.com/kerjabhakti/WS/blob/main/ChapterQUIS/pengumpulantugas/1214053-_Raul/foto/RESPONDARIPIPEDREAM.png?raw=true)
+![image](https://github.com/kerjabhakti/WS/blob/main/ChapterQUIS/1214053-_Raul_QUIZ/foto/RESPONDARIPIPEDREAM.png?raw=true)
 kita melakukan get dari html dan memunculakan hasil respon yang kita ke dalam pipe dream dan hasilnya sudah masuk kita melakkukan POST
 
 ![image](https://github.com/kerjabhakti/WS/blob/main/ChapterQUIS/1214053-_Raul/foto/muncul%20respon%20pipe%20dream.png?raw=true)
