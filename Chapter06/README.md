@@ -48,4 +48,12 @@ function isiTablePresensi(results){
 }
 setInner("namadivisi","Dari croot.js");
 ```
+Kita commit dan push, kemudian tunggu hingga centang hijau pertanda github pages sudah terdeploy dengan baik
+![image](https://user-images.githubusercontent.com/15622730/227807075-1df53712-a2a2-4918-a300-d046d8c36109.png)
+Kita lakukan inspect dan masuk ke tab console terdapat error CORS tampak sebagai berikut.
+![image](https://user-images.githubusercontent.com/15622730/227807109-11d7755a-c0ae-4843-9657-1aea9200d9b2.png)
+Artinya kita perlu mendaftarkan url https://learning022.github.io/
+ke dalam config cors.go di repo backend https://gocroot.herokuapp.com/presensi
+![image](https://user-images.githubusercontent.com/15622730/227808339-d5a26c1a-94f6-4228-bdbe-13547fae67c1.png)
+
 
