@@ -12,3 +12,20 @@ Pertama pakai frontend yang sudah kemaren kita buat, deploy di github pages. Kit
 ```html
 <script type="module" src="js/croot.js"></script>
 ```
+![image](https://user-images.githubusercontent.com/15622730/227806670-bcf6c3da-202e-422a-8198-e5124ad3714c.png)
+
+## 
+Penggunaan Framework JSCroot
+Kita akan menggunakan framework frontent jscroot, bisa dilihat di situs : https://jscroot.github.io/
+pertama kita edit file index.html kita tambahkan id dengan value namadivisi di salah satu judul tabel
+```html
+<p id="namadivisi" class="font-semibold text-xl text-coolGray-800">Karyawan</p>
+```
+kita coba isi croot.js dengan
+```js
+import { setInner } from "https://jscroot.github.io/element/croot.js";
+setInner("namadivisi","Dari croot.js");
+```
+maka judul berubah, berarti JSCroot sudah berjalan dengan baik
+
+![image](https://user-images.githubusercontent.com/11188109/224890410-27a737dd-ec0d-416d-9614-2a0fd913f090.png)
