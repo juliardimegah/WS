@@ -1,4 +1,4 @@
-module github.com/kerjabhakti/WS/Chapter03/Tugas/1214066_MegahJuliardi/backend
+module github.com/kerjabhakti/WS/Chapter03/coba
 
 go 1.20
 

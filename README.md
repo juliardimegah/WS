@@ -20,7 +20,7 @@ Data Kelompok
 10. 1214082 Gregorius Bagaskara Balisa, 1204059 Dean Teguh Imansyah
 
 
-## Daftar Nilai 
+## Daftar Nilai Tugas
 
 | NPM      | Nama | 1 | 
 | ----------- | ----------- | ----------- |
