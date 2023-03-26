@@ -8,7 +8,7 @@ function PushButton(){
 
 function PostSignUp(nama1,nama2,email,password){
   var myHeaders = new Headers();
-  myHeaders.append("Login", "bismillah");
+  myHeaders.append("Login", "bismillah"); 
   myHeaders.append("Content-Type", "application/json");
 
   var raw = JSON.stringify({
