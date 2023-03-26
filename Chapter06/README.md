@@ -7,7 +7,7 @@ Kita akan membuat frontend yang sudah kita buat berkomunikasi dengan backend yan
 3. Membuat dan mengisi kerangka jscroot
 
 ## Kontainer, Tabel, tag, Content
-Pertama pakai frontend yang sudah kemaren kita buat, deploy di github pages. Kita buat di dalam kontainer sebuah tabel untuk mengkonsumsi API. Contoh frontend : https://github.com/adorableproject/presensi dengan alamat github pages : https://adorableproject.github.io/presensi/ . Hal yang pertama kali kita lakukan adalah membuka file index.html dan menambahkan tag di dalam section head untuk memanggil file js/croot.js.
+Pertama pakai frontend yang sudah kemaren kita buat, deploy di github pages. Kita buat di dalam kontainer sebuah tabel untuk mengkonsumsi API. Contoh frontend : https://github.com/learning022/presensi dengan alamat github pages : https://learning022.github.io/presensi/ . Hal yang pertama kali kita lakukan adalah membuka file index.html dan menambahkan tag di dalam section head untuk memanggil file js/croot.js.
 
 ```html
 <script type="module" src="js/croot.js"></script>
