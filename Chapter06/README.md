@@ -161,8 +161,7 @@ jadilah tabel presensi karyawan sudah terisi
 ### Membuat boilerplate framework frontend
 
 Sekarang kita rapihkan kode program js kita, sehingga bisa terbaca orang lain dan sesuai dengan sudut pandang framework pada umumnya. Kita ubah dengan struktur folder config,controller,template dengan isi file masing-masing seperti terlihat pada gambar di bawah ini.
-
-![image](https://user-images.githubusercontent.com/11188109/224894184-74bc9192-d635-47e1-bd02-f7dbe16a0d39.png)
+![image](https://user-images.githubusercontent.com/15622730/227809347-67a6fddd-79ae-438b-a0de-fb09ab103409.png)
 
 file croot.js berisi
 ```js
