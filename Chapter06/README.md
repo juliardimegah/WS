@@ -21,11 +21,31 @@ pertama kita edit file index.html kita tambahkan id dengan value namadivisi di s
 ```html
 <p id="namadivisi" class="font-semibold text-xl text-coolGray-800">Karyawan</p>
 ```
+![image](https://user-images.githubusercontent.com/15622730/227806860-b128c140-4917-4328-bdb5-71e00d9c4989.png)
+
 kita coba isi croot.js dengan
 ```js
 import { setInner } from "https://jscroot.github.io/element/croot.js";
 setInner("namadivisi","Dari croot.js");
 ```
-maka judul berubah, berarti JSCroot sudah berjalan dengan baik
+![image](https://user-images.githubusercontent.com/15622730/227806895-abcdbd62-7b73-4e52-8573-bb62e9dce331.png)
 
-![image](https://user-images.githubusercontent.com/11188109/224890410-27a737dd-ec0d-416d-9614-2a0fd913f090.png)
+maka judul berubah, berarti JSCroot sudah berjalan dengan baik
+![image](https://user-images.githubusercontent.com/15622730/227806920-543410a9-0f10-4fe4-b4df-4ef9b550f37e.png)
+
+## Pengambilan Data dari Backend
+Kita buat file croot.js di dalam folder js yang berisi.
+```js
+import { get } from "https://jscroot.github.io/api/croot.js";
+import { setInner } from "https://jscroot.github.io/element/croot.js";
+
+let URLPresensi = "https://gocroot.herokuapp.com/presensi";
+
+get(URLPresensi,isiTablePresensi);
+
+function isiTablePresensi(results){
+    console.log(results);
+}
+setInner("namadivisi","Dari croot.js");
+```
+
