@@ -128,8 +128,7 @@ export let presensiContent=`
 `
 ```
 Dimana #NAMA#, #PHONENUMBER#, #LOKASI#,#KET# dst adalah variabel yang akan kita replace dengan data dari API. File table.js ditaruh di folder template di dalam folder js, sehingga strukturnya tampak sebagai berikut.
-
-![image](https://user-images.githubusercontent.com/11188109/224798778-fbd7e885-48c2-44eb-bd0c-aeabeea71726.png)
+![image](https://user-images.githubusercontent.com/15622730/227808758-6fc1aebe-4fc2-42f9-be91-565a0a969aea.png)
 
 kita ubah croot.js lagi menjadi
 ```js
