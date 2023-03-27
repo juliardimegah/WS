@@ -33,7 +33,6 @@ function PostSignUp(nama, email, password, country, city) {
     .catch((error) => console.log("error", error));
 
 }
-
 function GetResponse(result) {
   document.getElementById("formsignup").innerHTML = result;
   console.log(result)
