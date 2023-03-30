@@ -150,7 +150,7 @@ Berikut Fotonya :
 
 ![image](https://github.com/Dzikri7/WS/blob/main/UTS/1214062_Dzikri_UTS/ScreenShots/RequestCatcher.png?raw=true)
 
-![image](
+![image](https://github.com/Dzikri7/WS/blob/main/UTS/1214062_Dzikri_UTS/ScreenShots/Requestcatcher_2.png?raw=true)
 
 ![image](https://github.com/Dzikri7/WS/blob/main/UTS/1214062_Dzikri_UTS/ScreenShots/PostmanRequestCatcherGet.png?raw=true)
 
