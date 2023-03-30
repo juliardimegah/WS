@@ -257,7 +257,24 @@ function isitabel(value){
 
 ![requestcatcher](https://user-images.githubusercontent.com/93715182/228728433-fc07bb21-f4bd-45c0-9699-a2445f6e0138.png)
 
-# Membuat post sign up
+# Membuat post sign up menggunakan posman
+
+Masukkan link pipedream dan isi raw dengan kodingan berikut
+
+```go
+{
+    "email": "email",
+  "password": "password",
+}
+```
+
+![mencoba POST menggunakan posman](https://user-images.githubusercontent.com/93715182/228732265-fccfd37a-7a48-4d12-a681-e38918de41ba.png)
+
+Kemudian check apakah data masuk ke pipedream
+
+![berhasil mengirim data menggunakan posman](https://user-images.githubusercontent.com/93715182/228732380-4a46a9b3-cca3-48e0-b57f-675395b72df7.png)
+
+# Membuat post sign up menggunakan javascript
 
 Buat trigger pipedream terlebih dahulu
 
