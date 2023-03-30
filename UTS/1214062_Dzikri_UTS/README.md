@@ -357,7 +357,15 @@ Berikut output dan hasilnya :
 
 Link GitHub Pages :
 
+Readme :
 https://dzikri7.github.io/UTS.github.io/
+
+API :
+https://dzikri7.github.io/UTS.github.io/api/
+
+Login :
+https://dzikri7.github.io/UTS.github.io/login/
+
 
 # SELESAI
 
