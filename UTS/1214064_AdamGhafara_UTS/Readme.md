@@ -198,3 +198,120 @@ Nantinya kalian akan di arahkan untuk memilih trigger.
 Silahkan pilih ``` New HTTPS / Webhook Requests ```
 
 Biarkan config dalam keadaan default lalu Save and Continue.
+Nanti kalian akan diarahkan ke tampilan berikut, API tinggal menunggu masuknya perintah.
+
+![image](https://github.com/adam-ghafara/WS/blob/main/UTS/1214064_AdamGhafara_UTS/foto/Screenshot_2714.png?raw=true)
+
+Silahkan copy link yang ada didalam Pipedream kedalam Postman, Run dan lihat hasilnya..
+
+Hasil akan menampilkan notifikasi.
+
+![image](https://github.com/adam-ghafara/WS/blob/main/UTS/1214064_AdamGhafara_UTS/foto/Pipedreamtest%20(3).png?raw=true)
+
+Hasil didalam Postman terlihat seperti berikut:
+
+![image](https://github.com/adam-ghafara/WS/blob/main/UTS/1214064_AdamGhafara_UTS/foto/Pipedreamtest%20(2).png?raw=true)
+
+Berarti API berjalan.. Selanjutnya kita akan membuat Javascript yang menyambungkan API dan HTML sehingga form registrasi dapat berjalan.
+
+Kembali ke Postman, Masuk ke header dan masukkan data berikut:
+
+Isikan Key dengan ```LOGKEY```
+
+Isikan Value dengan ```576TGH4EDTD76EYUAG4J3E76DTUGJ4GW```
+
+Masuk ke bagian Body, isi dengan data berikut:
+```
+{
+    "getname" : "",
+    "username" : "",
+    "email" : "",
+    "password" : 1
+}
+```
+
+Tes POST dan lihat hasilnya di tabel ``Body``.
+
+Buat file baru dengan nama ```get_reg.js```, lalu isikan dengan codingan berikut..
+
+```
+function PushReg(){
+    getname=document.getElementById("getname").value;
+    username=document.getElementById("username").value;
+    email=document.getElementById("email").value;
+    password=document.getElementById("password").value;
+    PostSignUp(getname,username,email,password);
+}
+
+function PostSignUp(getname,username,email,password){
+var myHeaders = new Headers();
+myHeaders.append("LOGKEY", "576TGH4EDTD76EYUAG4J3E76DTUGJ4GW");
+myHeaders.append("Content-Type", "application/json");
+
+var raw = JSON.stringify({
+  "getname": getname,
+  "username": username,
+  "email": email,
+  "password": password
+});
+
+var requestOptions = {
+  method: 'POST',
+  headers: myHeaders,
+  body: raw,
+  redirect: 'follow'
+};
+
+fetch("https://eonspzggysldjw6.m.pipedream.net", requestOptions)
+  .then(response => response.text())
+  .then(result => console.log(result))
+  .catch(error => console.log('error', error)); 
+}
+
+function GetResponse(result){
+    document.getElementById("formsignup").style.display = 'none';
+    document.getElementById("formsignup").style.display = 'block';
+    document.getElementById("formsignup").innerHTML = result;
+}
+```
+
+Save.
+
+Menuju HTML form registrasi yang kita buat.
+
+Sekarang Cari button
+```
+<button
+ onclick="PushReg()"
+ type="button"
+ class="w-full text-center py-3 rounded bg-green text-white hover:bg-green-dark focus:outline-none my-1"
+>Buat Akun</button>
+```
+
+Tambahkan ```onclick="PushReg()"```
+
+Sekarang cari input, tambahkan "id" dan samakan namanya dengan yang ada didalam codingan ```PushReg()``` di ```get_reg.js```.
+
+Save dan tes menggunakan Live Server.
+
+Silahkan isikan dengan Data apa saja, dan tekan Buat Akun.
+
+![image](https://github.com/adam-ghafara/WS/blob/main/UTS/1214064_AdamGhafara_UTS/foto/Pipedreamtest%20(5).png?raw=true)
+
+Lihat didalam Console, console seharusnya menampilkan hasil berikut:
+
+![image](https://github.com/adam-ghafara/WS/blob/main/UTS/1214064_AdamGhafara_UTS/foto/Pipedreamtest%20(1).png?raw=true)
+
+Cek dalam Pipedream dan lihat event barunya, Pipedream seharusnya menampilkan hasil berikut:
+
+![image](https://github.com/adam-ghafara/WS/blob/main/UTS/1214064_AdamGhafara_UTS/foto/Pipedreamtest%20(3).png?raw=true)
+
+Masuk ke bagian body dan cek isinya.
+
+Seharusnya ditampilkan seperti berikut:
+
+![image](https://github.com/adam-ghafara/WS/blob/main/UTS/1214064_AdamGhafara_UTS/foto/Screenshot_2704.png?raw=true)
+
+Hasil akhir web service ditampilkan di github pages berikut:
+
+https://adam-ghafara.github.io/
