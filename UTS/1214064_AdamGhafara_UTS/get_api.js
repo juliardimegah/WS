@@ -4,16 +4,16 @@ myHeaders.append("Cookie", "connect.sid=s%3AMsnp_KW3uPWTf6gN4GDNl7XAoOShdRL2.VK0
 var requestOptions = {
     method: 'GET',
     redirect: 'follow'
-};  
+    }; 
 
 hasil="";
 txt="";
 txt1="";
 
-fetch("https://xkcd.com/info.0.json", requestOptions)
-  .then(response => response.text())
-  .then(result => console.log(result))
-  .catch(error => console.log('error', error));
+fetch("https://ciprand.p3p.repl.co/api?len=20&count=10", requestOptions)
+    .then(response => response.text())
+    .then(result => console.log(result))
+    .catch(error => console.log('error', error));
 
 function tampilkan(result){
     console.log(result);
@@ -22,16 +22,12 @@ function tampilkan(result){
 }
 
 function isitabel(value){
-  const mon = "Month: "
-  const yr = "Year: "
-  const tlt = "Title: "
-  const com = "Chat: "
+  const str = "String: "
+  const cnt = "Count : "
   const pag = "* * * * * * * * * * * *"
-    txt= txt+trnyatabel.replace("#TEXT#",mon+value.month + "");
-    txt= txt+trnyatabel.replace("#TEXT#",yr+value.year + "");
-    txt= txt+trnyatabel.replace("#TEXT#",tlt+value.safe_title + "");
-    txt= txt+trnyatabel.replace("#TEXT#",com+value.alt + "");
-    txt= txt+trnyatabel.replace("#TEXT#",pag);
+    txt= txt.replace("#TEXT#",str+value.Strings + "");
+    txt= txt.replace("#TEXT#",cnt+value.Count + "");
+    txt= txt.replace("#TEXT#",pag);
   document.getElementById("konten").innerHTML=txt;
 }
 trnyatabel=`
