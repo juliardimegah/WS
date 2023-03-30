@@ -132,7 +132,7 @@ PostSignUp(namalengkap,email,password);
 
 Berikut ini merupakan source code pada file main.js
 
-````
+```
 // Burger menus
 document.addEventListener('DOMContentLoaded', function() {
     // open
@@ -172,25 +172,80 @@ document.addEventListener('DOMContentLoaded', function() {
             });
         }
     }
-});```
+});
+```
 
 # 3. Gunakan API Public yang dapat diakses dan lakukan pengujian postman pastikan data variable tampil pada console (screenshoot)
 
+![](Foto/Post.png)
+
+![](Foto/PUT.png)
+
+![](Foto/Get.png)
 
 # 4. Lakukan pengujian pada https://requestcatcher.com/
+
+![](Foto/GetRe)
 
 # 5. Membuat Endpoint menggunakan postman dari Pipedream
 
 # 6. Tambahkan fungsi PostSignUp() yang berfungsi untuk melakukan Post Form Data Sign Up. FUngsi ini diambil dari postman
 
+Dibawah ini merupakan source code dari fungsi PostSIgnUp()
+
+```
+function PostSignUp(namalengkap,email,password){
+       var myHeaders = new Headers();
+       myHeaders.append("Login", "rollygantengsekali");
+       myHeaders.append("Content-Type", "application/json");
+
+       var raw = JSON.stringify({
+           "namalengkap": namalengkap,
+           "email": email,
+           "password": password
+       });
+
+       var requestOptions = {
+           method: 'POST',
+           headers: myHeaders,
+           body: raw,
+           redirect: 'follow'
+       };
+
+       fetch("https://eobdc7imwva8gel.m.pipedream.net", requestOptions)
+           .then(response => response.text())
+           .then(result => console.log(result))
+           .catch(error => console.log('error', error));
+}
+```
+
 # 7. Membuat fungsi PushButton() untuk melakukan aksi tombol pada bagian html button tambahkan atribut onclick
+
+Dibawah ini merupakan source code PushButton()
+
+```
+ function PushButton(){
+       namalengkap = document.getElementById("namalengkap").value;
+       email=document.getElementById("email").value;
+       password=document.getElementById("password").value;
+       PostSignUp(namalengkap,email,password);
+ }
+```
+
+Dibawah ini merupakan source code onclick
+
+```
+ <p  onclick="PushButton()" id="tombol" class="relative z-10">Sign Up</p>
+```
 
 # 8. Kita test dengan klik kanan Open with live server, kita isi form nya sambil inspect console console data success dikirim, kemudian kita lihat pada dashboard pipedream data sudah diterima dengan baik oleh endpoint baik itu header maupun body
 
 # 9. Sertakan skrinsutan dari live server aplikasi dan pipedream.com
 
-
 # 10. Sertakan link Github Pages Sudah jalan di repo masing-masing
 
 # 11. Semua proses di screenshoot dan dijalankan pada README.md
-````
+
+```
+
+```
