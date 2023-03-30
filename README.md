@@ -56,5 +56,5 @@ Data Kelompok
 Pelaku delete file orang :
 |No.| NPM      | Nama | Commit |
 | ------ | ------ | ------ | ------ |
-|1.| 45345345 | sdgsdgsdgsdg | sdgsdgsdg |
+|1.| 1214058 | Firda Yulianti | asal ngepush berantakan |
 
