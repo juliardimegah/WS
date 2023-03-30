@@ -100,4 +100,6 @@ function PushButton(){
 
 # 10. Sertakan link Github Pages
 Berikut adalah link Github Pages dari repository saya.
-https://shintaraudita.github.io/1214063_ShintaRaudita_UTS.github.io/
+1. https://shintaraudita.github.io/pipedream/
+
+2. https://shintaraudita.github.io/api/
