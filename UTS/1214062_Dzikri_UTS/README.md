@@ -10,7 +10,6 @@ A. HTML
 
 ```go
 
-
 <!doctype html>
 <html lang="en">
 <head>
@@ -134,9 +133,11 @@ function isitabel(value){
 
 Dan berikut outputnya :
 
+![image](https://github.com/Dzikri7/WS/blob/main/UTS/1214062_Dzikri_UTS/ScreenShots/APIPublic.png?raw=true)
 
 2. Melakukan pengujian API Public pada postman
 
+![image](https://github.com/Dzikri7/WS/blob/main/UTS/1214062_Dzikri_UTS/ScreenShots/PostmanAPIPublic.png?raw=true)
 
 3. Melakukan pengujian API pada RequestCatcher
 
@@ -145,13 +146,35 @@ Berikut adalah link RequestCatchernya :
 ```sh
 https://dz.requestcatcher.com/
 ```
+Berikut Fotonya :
 
+![image](https://github.com/Dzikri7/WS/blob/main/UTS/1214062_Dzikri_UTS/ScreenShots/RequestCatcher.png?raw=true)
 
+![image](
+
+![image](https://github.com/Dzikri7/WS/blob/main/UTS/1214062_Dzikri_UTS/ScreenShots/PostmanRequestCatcherGet.png?raw=true)
+
+![image](https://github.com/Dzikri7/WS/blob/main/UTS/1214062_Dzikri_UTS/ScreenShots/PostmanRequestCatcherPost.png?raw=true)
+
+![image](https://github.com/Dzikri7/WS/blob/main/UTS/1214062_Dzikri_UTS/ScreenShots/PostmanRequestCatcherPut.png?raw=true)
+
+![image](https://github.com/Dzikri7/WS/blob/main/UTS/1214062_Dzikri_UTS/ScreenShots/RequestCatcherGet.png?raw=true)
+
+![image](https://github.com/Dzikri7/WS/blob/main/UTS/1214062_Dzikri_UTS/ScreenShots/RequestCatcherPost.png?raw=true)
+
+![image](https://github.com/Dzikri7/WS/blob/main/UTS/1214062_Dzikri_UTS/ScreenShots/RequestCatcherPut.png?raw=true)
 
 4. Membuat Endpoint menggunakan Postman dari Pipedream
 
+![image](https://github.com/Dzikri7/WS/blob/main/UTS/1214062_Dzikri_UTS/ScreenShots/EndpointPipedream.png?raw=true)
 
-5. Menambahkan fungsi PostSignUp(), fungsi PushButton(), serta menambahkan attribut onclick
+![image](https://github.com/Dzikri7/WS/blob/main/UTS/1214062_Dzikri_UTS/ScreenShots/EndpointPipedream_2.png?raw=true)
+
+![image](https://github.com/Dzikri7/WS/blob/main/UTS/1214062_Dzikri_UTS/ScreenShots/RequestEndpointPipedream.png?raw=true)
+
+![image](https://github.com/Dzikri7/WS/blob/main/UTS/1214062_Dzikri_UTS/ScreenShots/ResultEndpointPipedream.png?raw=true)
+
+5. Menambahkan fungsi PostSignUp(), fungsi PushButton(), serta menambahkan attribut onclick serta melakukan test dengan live server sampai success dan masuk ke dalam Endpoint Pipedream, baik itu header maupun body
 
 Berikut source Codenya :
 
@@ -318,7 +341,24 @@ function PushButton(){
 
 ```
 
-6. Melakukan test dengan live server sampai success dan masuk ke dalam Endpoint Pipedream, baik itu header maupun body
+Berikut output dan hasilnya :
+
+![image](https://github.com/Dzikri7/WS/blob/main/UTS/1214062_Dzikri_UTS/ScreenShots/TailwindLogin.png?raw=true)
+
+![image](https://github.com/Dzikri7/WS/blob/main/UTS/1214062_Dzikri_UTS/ScreenShots/TailwindSuccess.png?raw=true)
+
+![image](https://github.com/Dzikri7/WS/blob/main/UTS/1214062_Dzikri_UTS/ScreenShots/Pipedream.png?raw=true)
+
+![image](https://github.com/Dzikri7/WS/blob/main/UTS/1214062_Dzikri_UTS/ScreenShots/Pipedream_2.png?raw=true)
+
+![image](https://github.com/Dzikri7/WS/blob/main/UTS/1214062_Dzikri_UTS/ScreenShots/Pipedream_3.png?raw=true)
+
+![image](https://github.com/Dzikri7/WS/blob/main/UTS/1214062_Dzikri_UTS/ScreenShots/Pipedream_4.png?raw=true)
+
+
+
+# SELESAI
+
 
 
 
