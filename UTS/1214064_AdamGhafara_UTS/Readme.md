@@ -304,7 +304,7 @@ Lihat didalam Console, console seharusnya menampilkan hasil berikut:
 
 Cek dalam Pipedream dan lihat event barunya, Pipedream seharusnya menampilkan hasil berikut:
 
-![image](https://github.com/adam-ghafara/WS/blob/main/UTS/1214064_AdamGhafara_UTS/foto/Pipedreamtest%20(3).png?raw=true)
+![image](https://github.com/adam-ghafara/WS/blob/main/UTS/1214064_AdamGhafara_UTS/foto/Pipedreamtest%20(4).png?raw=true)
 
 Masuk ke bagian body dan cek isinya.
 
