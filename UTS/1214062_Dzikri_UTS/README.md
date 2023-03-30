@@ -143,9 +143,8 @@ Dan berikut outputnya :
 
 Berikut adalah link RequestCatchernya :
 
-```sh
 https://dz.requestcatcher.com/
-```
+
 Berikut Fotonya :
 
 ![image](https://github.com/Dzikri7/WS/blob/main/UTS/1214062_Dzikri_UTS/ScreenShots/RequestCatcher.png?raw=true)
@@ -356,6 +355,9 @@ Berikut output dan hasilnya :
 ![image](https://github.com/Dzikri7/WS/blob/main/UTS/1214062_Dzikri_UTS/ScreenShots/Pipedream_4.png?raw=true)
 
 
+Link GitHub Pages :
+
+https://dzikri7.github.io/UTS.github.io/
 
 # SELESAI
 
