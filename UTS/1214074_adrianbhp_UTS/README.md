@@ -2,6 +2,7 @@
 
 # 1. Buat Tampilan Front End menggunakan component pada tailwinds (index)
 
+![](Foto/UI_API.png)
 Berikut ini merupakan Source Code dari Tailwind :
 
 ```
@@ -185,9 +186,16 @@ document.addEventListener('DOMContentLoaded', function() {
 
 # 4. Lakukan pengujian pada https://requestcatcher.com/
 
-![](Foto/GetRe)
+![](Foto/Get_Request_Catcher.png)
+![](Foto/Post_Request_Catcher.png)
+![](Foto/Get_Request_Catcher.png)
 
 # 5. Membuat Endpoint menggunakan postman dari Pipedream
+
+![](Foto/Endpoint_pipedream.png)
+![](Foto/Pipedream_1.png)
+![](Foto/Pipedream_2.png)
+![](Foto/Pipedream_3.png)
 
 # 6. Tambahkan fungsi PostSignUp() yang berfungsi untuk melakukan Post Form Data Sign Up. FUngsi ini diambil dari postman
 
@@ -240,7 +248,13 @@ Dibawah ini merupakan source code onclick
 
 # 8. Kita test dengan klik kanan Open with live server, kita isi form nya sambil inspect console console data success dikirim, kemudian kita lihat pada dashboard pipedream data sudah diterima dengan baik oleh endpoint baik itu header maupun body
 
+![](Foto/UI_Front_End.png)
+![](Foto/Berhasil_API.png)
+
 # 9. Sertakan skrinsutan dari live server aplikasi dan pipedream.com
+
+![](Foto/UI_Front_End.png)
+![](Foto/UI_API.png)
 
 # 10. Sertakan link Github Pages Sudah jalan di repo masing-masing
 
