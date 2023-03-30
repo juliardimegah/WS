@@ -1,10 +1,14 @@
+# Buat frontend untuk open ai
+
+
+
 # Ujian Tengah Semester
 
-Silahkan kerjakan soal yang sudah di bagikan
+# Ujian Tengah Semester
 
-1. Kerjakan soal 
-2. Buat folder dengan nama "NPM_NAMA_UTS"
-3. langsung lakukan pull request pada repo ini dan masukan ke folder UTS
-4. Batas waktu full request Pukul 12:00 WIB
+## sertakan link githubpage
 
-Selamat Mengerjakan
+link dashboard(frondend)
+https://ibrohim-mubarok-d4-ulbi.github.io/OpenAPI/
+link sign up
+https://raulmahya123.github.io/signup/
