@@ -1,4 +1,4 @@
-# UTS
+# SOAL UTS
 
 # 1. Buat Tampilan Front End menggunakan component pada tailwinds (index)
 
@@ -27,7 +27,8 @@ Berikut ini merupakan Source Code dari Tailwind :
 
 Berikut ini merupakan Source code dari HTML :
 
-````<!DOCTYPE html>
+```
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <title>Page title</title>
@@ -85,14 +86,14 @@ Berikut ini merupakan Source code dari HTML :
     </div>
         <script src="./js/first.js"></script>
 </body>
-</html>```
+</html>
+```
 
 # 2. Buat file javascript untuk menghubungkan frontend dengan CSS pada componen tailwinds
 
 Berikut ini merupakan source code pada file First.js
 
-````
-
+```
 function PostSignUp(namalengkap,email,password){
 var myHeaders = new Headers();
 myHeaders.append("Login", "rollygantengsekali");
@@ -126,11 +127,13 @@ namalengkap = document.getElementById("namalengkap").value;
 email=document.getElementById("email").value;
 password=document.getElementById("password").value;
 PostSignUp(namalengkap,email,password);
-}```
+}
+```
 
 Berikut ini merupakan source code pada file main.js
 
-````// Burger menus
+````
+// Burger menus
 document.addEventListener('DOMContentLoaded', function() {
     // open
     const burger = document.querySelectorAll('.navbar-burger');
