@@ -4,30 +4,32 @@ myHeaders.append("Cookie", "connect.sid=s%3AMsnp_KW3uPWTf6gN4GDNl7XAoOShdRL2.VK0
 var requestOptions = {
     method: 'GET',
     redirect: 'follow'
-    }; 
+}; 
 
-hasil="";
-txt="";
-txt1="";
+hasil=""
+txt=""
+txt1=""
 
-fetch("https://ciprand.p3p.repl.co/api?len=20&count=10", requestOptions)
-    .then(response => response.text())
-    .then(result => console.log(result))
-    .catch(error => console.log('error', error));
+fetch("https://jsonplaceholder.typicode.com/todos", requestOptions)
+  .then(response => response.text())
+  .then(result => show_result(result))
+  .catch(error => console.log('error', error));
 
-function tampilkan(result){
+function show_result(result){
     console.log(result);
     hasil=JSON.parse(result);
     txt=hasil.forEach(isitabel);
 }
 
 function isitabel(value){
-  const str = "String: "
-  const cnt = "Count : "
-  const pag = "* * * * * * * * * * * *"
-    txt= txt.replace("#TEXT#",str+value.Strings + "");
-    txt= txt.replace("#TEXT#",cnt+value.Count + "");
-    txt= txt.replace("#TEXT#",pag);
+  const id = "ID: "
+  const str = "TITLE: "
+  const cnt = "COMPLETED : "
+  const pag = "=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-==-=-=-=-=-=-=-=-=-=-=-=-=-=-=--=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-"
+  txt= txt+trnyatabel.replace("#TEXT#",id+value.userId + "");
+    txt= txt+trnyatabel.replace("#TEXT#",str+value.title + "");
+    txt= txt+trnyatabel.replace("#TEXT#",cnt+value.completed + "");
+    txt= txt+trnyatabel.replace("#TEXT#",pag);
   document.getElementById("konten").innerHTML=txt;
 }
 trnyatabel=`
