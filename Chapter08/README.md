@@ -406,7 +406,4 @@ Ketika salah satu user leave, pesan **User XXX: disconnected** akan di-broadcast
 
 ![image](https://user-images.githubusercontent.com/15622730/235966583-b43b91f2-0a71-4b52-bd02-43ad0c387fdb.png)
 
-<div class="source-code-link">
-    <div class="source-code-link-message">Source code praktek chapter ini tersedia di Github</div>
-    <a href="https://github.com/novalagung/dasarpemrogramangolang-example/tree/master/chapter-D.3-golang-web-socket-chatting-app">https://github.com/novalagung/dasarpemrogramangolang-example/...</a>
-</div>
+
