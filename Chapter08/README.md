@@ -10,7 +10,9 @@ Nantinya saat testing akan ada banyak user terhubung dengan socket server, dalam
 
 Kurang lebih aplikasi yang kita kembangkan seperti gambar di bawah ini.
 
-![Chatting App](images/D_golang_web_socket_chatting_app_3_chatting.png)
+![image](https://user-images.githubusercontent.com/15622730/235965041-390dc05b-d6aa-4cc4-a4da-c91978f33c22.png)
+![image](https://user-images.githubusercontent.com/15622730/235965231-09afa53c-8fa6-4f1c-9780-a02b3062d896.png)
+
 
 ## Back End
 
