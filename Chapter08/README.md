@@ -1,5 +1,7 @@
 # Pendahuluan tentang Web Socket
-Lihat pada Link Berikut https://www.roniandarsyah.com/2023/05/apa-itu-websocket-dan-bagaimana-cara.html
+Lihat pada Link Dibawah ini:
+[KAMPUS DIGITAL MASA GITU]([https://github.com/gorilla/websocket](https://www.roniandarsyah.com/2023/05/apa-itu-websocket-dan-bagaimana-cara.html))
+
 # Web Socket: Chatting App
 
 Pada chapter ini kita akan belajar penerapan web socket di Go, untuk membuat sebuah aplikasi chatting. Web socket server dibuat menggunakan library [Gorilla Web Socket](https://github.com/gorilla/websocket), dan di sisi front end kita menggunakan native API milik javascript yaitu [WebSocket](https://developer.mozilla.org/en-US/docs/Web/API/WebSockets_API/Writing_WebSocket_client_applications) untuk melakukan komunikasi dengan socket server.
