@@ -214,7 +214,7 @@ Method `.WriteJSON()` milik `websocket.Conn` digunakan untuk mengirim data dari 
 
 Bagian back end sudah cukup. Sekarang lanjut ke layer front end.
 
-## D.3.2. Front End
+## Front End
 
 Siapkan terlebih dahulu basis layout front end. Ada dua section penting yg harus disiapkan.
 
