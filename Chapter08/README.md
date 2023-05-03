@@ -291,7 +291,8 @@ Tambahkan beberapa stylesheet agar terlihat cantik.
 
 Tampilan sekilas aplikasi bisa dilihat pada gambar di bawah ini.
 
-![Chatting App Template](images/D_golang_web_socket_chatting_app_1_template.png)
+![image](https://user-images.githubusercontent.com/15622730/235965638-72bea4f3-0745-4682-8b99-51f689ac03c6.png)
+![image](https://user-images.githubusercontent.com/15622730/235965680-bad510a6-cc1f-4f9e-9c0b-a2c3b7e1f26d.png)
 
 OK, sekarang saatnya masuk ke bagian yang paling disukai anak jaman now (?), yaitu javascript. Siapkan beberapa property, satu untuk menampung objek client socket server, dan satu lagi menampung element container (element inilah yang nantinya akan diisi message yang di-broadcast oleh server).
 
