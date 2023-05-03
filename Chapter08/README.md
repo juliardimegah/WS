@@ -324,7 +324,6 @@ Fungsi `app.init()` dipanggil pada event `window.onload`.
 
 Di saat pertama kali page load, muncul prompt yang meminta inputan nama user. Nantinya user yang diinput dijadikan sebagai *current* username pada aplikasi chatting ini.
 
-![Prompt Username](images/D_golang_web_socket_chatting_app_2_prompt_username.png)
 
 Property `app.ws` digunakan untuk menampung objek client web socket. Dari objek tersebut, buat 3 buah event listener. Tulis deklarasi event-nya dalam `app.init`.
 
@@ -397,16 +396,15 @@ OK, aplikasi sudah siap, mari lanjut ke bagian testing.
 
 Buka beberapa tab, gunakan username apa saja di masing-masing tab. Coba berinteraksi satu sama lain.
 
-![Chatting App](images/D_golang_web_socket_chatting_app_3_chatting.png)
+![image](https://user-images.githubusercontent.com/15622730/235966446-833b4e8a-2191-412e-a49e-49dcfde9d080.png)
 
 Bisa dilihat, ketika ada user baru, semua client yang sudah terhubung mendapat pesan **User XXX: connected**. 
 
 Pesan yang ditulis oleh satu client bisa dilihat oleh client lainnya.
 
-Ketika salah satu user leave, pesan **User XXX: disconnected** akan di-broadcast ke semua user lainnya. Pada gambar di bawah ini dicontohkan user **Noval Agung** leave.
+Ketika salah satu user leave, pesan **User XXX: disconnected** akan di-broadcast ke semua user lainnya. Pada gambar di bawah ini dicontohkan user **Roni Andarsyah** leave.
 
-![User leave chat room](images/D_golang_web_socket_chatting_app_4_user_leave.png)
-
+![image](https://user-images.githubusercontent.com/15622730/235966583-b43b91f2-0a71-4b52-bd02-43ad0c387fdb.png)
 
 <div class="source-code-link">
     <div class="source-code-link-message">Source code praktek chapter ini tersedia di Github</div>
