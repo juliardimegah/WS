@@ -1,5 +1,6 @@
 # Pendahuluan tentang Web Socket
 Lihat pada Link Dibawah ini:
+[Gorilla Web Socket](https://github.com/gorilla/websocket)
 [ KAMPUS DIGITAL MASA GITU ]([https://github.com/gorilla/websocket](https://www.roniandarsyah.com/2023/05/apa-itu-websocket-dan-bagaimana-cara.html))
 
 # Web Socket: Chatting App
