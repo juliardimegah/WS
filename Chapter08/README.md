@@ -1,4 +1,4 @@
-# D.3. Web Socket: Chatting App
+# Web Socket: Chatting App
 
 Pada chapter ini kita akan belajar penerapan web socket di Go, untuk membuat sebuah aplikasi chatting. Web socket server dibuat menggunakan library [Gorilla Web Socket](https://github.com/gorilla/websocket), dan di sisi front end kita menggunakan native API milik javascript yaitu [WebSocket](https://developer.mozilla.org/en-US/docs/Web/API/WebSockets_API/Writing_WebSocket_client_applications) untuk melakukan komunikasi dengan socket server.
 
@@ -12,7 +12,7 @@ Kurang lebih aplikasi yang kita kembangkan seperti gambar di bawah ini.
 
 ![Chatting App](images/D_golang_web_socket_chatting_app_3_chatting.png)
 
-## D.3.1. Back End
+## Back End
 
 Buat folder project baru.
 
@@ -22,7 +22,6 @@ cd chapter-d3
 go mod init chapter-d3
 
 go get -u github.com/gorilla/websocket@v1.4.1
-go get -u github.com/novalagung/gubrak/v2
 ```
 
 Siapkan dua buah file, `main.go` dan `index.html`. Kita akan buat socket server terlebih dahulu. Silakan tulis kode berikut ke dalam `main.go`.
@@ -33,7 +32,6 @@ package main
 import (
     "fmt"
     "github.com/gorilla/websocket"
-    gubrak "github.com/novalagung/gubrak/v2"
     "io/ioutil"
     "log"
     "net/http"
@@ -406,12 +404,6 @@ Ketika salah satu user leave, pesan **User XXX: disconnected** akan di-broadcast
 
 ![User leave chat room](images/D_golang_web_socket_chatting_app_4_user_leave.png)
 
----
-
- - [Gorilla Web Socket](https://github.com/gorilla/websocket), by Gary Burd, BSD-2-Clause License
- - [Gubrak v2](https://github.com/novalagung/gubrak), by Noval Agung, MIT License
-
----
 
 <div class="source-code-link">
     <div class="source-code-link-message">Source code praktek chapter ini tersedia di Github</div>
