@@ -29,7 +29,7 @@ Data Kelompok
 | 1214056      |Rachma Nurhaliza Parindra | 80 |
 | 1214085     |Fitrah Ali Akbar Setiawan | 70 |
 | 1214081      |Ibrohim Mubarok | 100 |
-| 1214066     |Megah Juliardi Sondara Wicaksana | 40 |
+| 1214066     |Megah Juliardi Sondara Wicaksana | 80 |
 | 1214074     |Adrian Bimo Hernawan Pratama | 100 |
 | 1214060    |Prisya Haura Febrianti | 0 |
 | 1214078      |Maulana Imanulhaq Nurdiana | 100 |
