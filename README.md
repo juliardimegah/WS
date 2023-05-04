@@ -22,21 +22,21 @@ Data Kelompok
 
 ## Daftar Nilai Tugas
 
-| NPM      | Nama | 1 | 
+| NPM      | Nama | UTS | 
 | ----------- | ----------- | ----------- |
-| 1214058      |Firda Yulianti | 0 |
-| 1214053      |Raul Mahya Komaran | 0 |
-| 1214056      |Rachma Nurhaliza Parindra | 0 |
-| 1214085     |Fitrah Ali Akbar Setiawan | 0 |
-| 1214081      |Ibrohim Mubarok | 0 |
-| 1214066     |Megah Juliardi Sondara Wicaksana | 0 |
-| 1214074     |Adrian Bimo Hernawan Pratama | 0 |
+| 1214058      |Firda Yulianti | 70 |
+| 1214053      |Raul Mahya Komaran | 100 |
+| 1214056      |Rachma Nurhaliza Parindra | 80 |
+| 1214085     |Fitrah Ali Akbar Setiawan | 70 |
+| 1214081      |Ibrohim Mubarok | 100 |
+| 1214066     |Megah Juliardi Sondara Wicaksana | 40 |
+| 1214074     |Adrian Bimo Hernawan Pratama | 100 |
 | 1214060    |Prisya Haura Febrianti | 0 |
-| 1214078      |Maulana Imanulhaq Nurdiana | 0 |
-| 1214082      |Gregorius Bagaskara Balisa | 0 |
-| 1214075      |Maylinda Christy Yosefina Talan | 0 |
-| 1214064      |Adam Ghafara | 0 |
-| 1214063      |Shinta Raudita Octora Damayanti | 0 |
+| 1214078      |Maulana Imanulhaq Nurdiana | 100 |
+| 1214082      |Gregorius Bagaskara Balisa | tidak Mengumpulkan |
+| 1214075      |Maylinda Christy Yosefina Talan | 90 |
+| 1214064      |Adam Ghafara | 100 |
+| 1214063      |Shinta Raudita Octora Damayanti | 100 |
 | 1214045      |Farrel Wayendra Kumara Hamdani | 0 |
 | 1214073      |Salman Akbar Hasbullah | 0 |
 | 1214062      |Dzikri Izzatul Haq | 0 |
