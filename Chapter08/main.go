@@ -2,13 +2,13 @@ package main
 
 import (
 	"fmt"
-	"io/ioutil"
 	"log"
 	"net/http"
+	"os"
 	"strings"
 
 	"github.com/gorilla/websocket"
-	gubrak "github.com/novalagung/gubrak/v2"
+	"github.com/novalagung/gubrak/v2"
 )
 
 type M map[string]interface{}
@@ -36,7 +36,7 @@ type WebSocketConnection struct {
 
 func main() {
 	http.HandleFunc("/", func(w http.ResponseWriter, r *http.Request) {
-		content, err := ioutil.ReadFile("index.html")
+		content, err := os.ReadFile("index.html")
 		if err != nil {
 			http.Error(w, "Could not open requested file", http.StatusInternalServerError)
 			return
@@ -46,7 +46,7 @@ func main() {
 	})
 
 	http.HandleFunc("/ws", func(w http.ResponseWriter, r *http.Request) {
-		currentGorillaConn, err := websocket.Upgrade(w, r, w.Header(), 1024, 1024)
+		currentGorillaConn, err := websocket.Upgrader(w, r, w.Header(), 1024, 1024)
 		if err != nil {
 			http.Error(w, "Could not open websocket connection", http.StatusBadRequest)
 		}
