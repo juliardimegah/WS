@@ -1,6 +1,6 @@
 # Fiber
 **Fiber** adalah kerangka web yang terinspirasi oleh [Express](https://github.com/expressjs/express) yang dibangun di atas [Fasthttp](https://github.com/valyala/fasthttp) , mesin HTTP tercepat untuk Go . Dirancang untuk memudahkan pengembangan tanpa alokasi memori yang besar dan performa yang terbaik.
-
+![image](https://github.com/kerjabhakti/WS/assets/15622730/6604d503-b984-46ea-9dda-7c9399a98564)
 **Fiber** adalah sebuah framework web open source yang ditulis dalam bahasa pemrograman Go atau disebut juga Golang. Framework ini dirancang dengan fokus pada kecepatan, efisiensi, dan kemudahan penggunaan. Fiber juga dilengkapi dengan fitur-fitur modern seperti middleware, routing, handling request dan response, serta dukungan untuk WebSocket.
 
 Dokumen ini untuk **Fiber v2** , yang dirilis pada **15 September 2020** 
