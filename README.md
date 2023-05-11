@@ -31,7 +31,7 @@ Data Kelompok
 | 1214081      |Ibrohim Mubarok | 100 |
 | 1214066     |Megah Juliardi Sondara Wicaksana | 80 |
 | 1214074     |Adrian Bimo Hernawan Pratama | 100 |
-| 1214060    |Prisya Haura Febrianti | 0 |
+| 1214060    |Prisya Haura Febrianti | 70 |
 | 1214078      |Maulana Imanulhaq Nurdiana | 100 |
 | 1214082      |Gregorius Bagaskara Balisa | tidak Mengumpulkan |
 | 1214075      |Maylinda Christy Yosefina Talan | 90 |
