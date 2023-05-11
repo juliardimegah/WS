@@ -38,12 +38,12 @@ Data Kelompok
 | 1214064      |Adam Ghafara | 100 |
 | 1214063      |Shinta Raudita Octora Damayanti | 100 |
 | 1214045      |Farrel Wayendra Kumara Hamdani | 0 |
-| 1214073      |Salman Akbar Hasbullah | 0 |
+| 1214073      |Salman Akbar Hasbullah | 80 |
 | 1214062      |Dzikri Izzatul Haq | 0 |
 | 12140      |Ida Bagus | 0 |
-| 1214079      |Aulia Maharani | 0 |
+| 1214079      |Aulia Maharani | 65 |
 | 1214045      |Muh Fauzan Alif | 0 |
-| 1204059      |Dean Teguh Imansyah | 0 |
+| 1204059      |Dean Teguh Imansyah | 70 |
 
 
 
