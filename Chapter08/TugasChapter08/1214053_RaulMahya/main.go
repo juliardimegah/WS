@@ -34,8 +34,11 @@ func main() {
 				break
 			}
 
-			// Echo the message back to the client
-			err = conn.WriteMessage(websocket.TextMessage, msg)
+			// Generate a response based on the received message
+			response := generateResponse(string(msg))
+
+			// Send the response back to the client
+			err = conn.WriteMessage(websocket.TextMessage, []byte(response))
 			if err != nil {
 				log.Println("WebSocket write error:", err.Error())
 				break
@@ -47,4 +50,11 @@ func main() {
 
 	fmt.Println("Server is running on port 8080")
 	log.Fatal(http.ListenAndServe(":8080", r))
+}
+
+// Generate a response based on the received message
+func generateResponse(message string) string {
+	// You can customize the response generation logic here
+	// For example, you can use conditional statements or external AI models to generate dynamic responses
+	return "Server: " + message
 }
