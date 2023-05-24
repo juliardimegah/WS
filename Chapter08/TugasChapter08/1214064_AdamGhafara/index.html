@@ -1,0 +1,21 @@
+<html lang="en">
+<head>
+    <title>Percobaan WebSocket</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container mx-lg"></div>
+    <div class="form">
+        <form onsubmit="app.doSendMessage(); return false;">
+            <div class="placeholder">
+                <label>Hello <b class="username"></b>. Say something:</label>
+            </div>
+            <input class="input-message" type="text" placeholder="Enter message">
+            <button type="submit">Send</button>
+        </form>
+    </div>
+        <script src="https://unpkg.com/flowbite@1.4.0/dist/flowbite.js"></script>
+        <Script src="/websocket.js"></Script>
+    </div>
+</body>
+</html>
