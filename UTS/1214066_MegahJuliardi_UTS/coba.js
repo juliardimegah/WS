@@ -25,11 +25,13 @@ function PushButton(){
     redirect: 'follow'
     };
   
-    fetch("https://eoeon353ims2stx.m.pipedream.net", requestOptions)
+    fetch("https://eo45idg3o5vgzjo.m.pipedream.net", requestOptions)
     .then(response => response.text())
-    .then(result => GetResponse(result))
+    .then(result => console.log(result))
     .catch(error => console.log('error', error));
   }
+
+  
   
   function GetResponse(result){
     document.getElementById("formsignup").innerHTML = result;
