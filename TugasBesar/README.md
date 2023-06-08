@@ -30,5 +30,18 @@ kerjakan perkelompok
 | ----------- | ----------- | ----------- | ----------- | ----------- |
 | Maulana Imanulhaq Nurdiana  | ✔️ | ✔️ | ✔️ | 100 |
 | Raul Mahya Komaran  | ✔️ | ✔️ | ✔️ | 100 |
+| Fitrah Ali Akbar  | ❌ | ❌ | ❌ | ❌ |
+| Salman Akbar  | ❌ | ❌ | ❌ | ❌ |
+| Firda  |❌  | ❌ | ❌ |❌  |
+| Maylinda  |❌  |❌  | ❌ |  ❌|
+| Adrian | ✔️  |-  | - |  100|
+| Aulia | ❌  |-  | - | 70 |
+
+# NOTE  presentasi ke 2
+
+| Nama   | Soal 1  | Soal 2 | Soal 3 | Nilai |
+| ----------- | ----------- | ----------- | ----------- | ----------- |
 | Fitrah Ali Akbar  |  |  |  |  |
 | Salman Akbar  |  |  |  |  |
+| firda  |  |  |  |  
+| maylinda  |  |  |  |  |
