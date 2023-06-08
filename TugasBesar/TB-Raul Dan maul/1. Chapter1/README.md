@@ -1,0 +1,21 @@
+# BAB 1
+# APA ITU GOLANG?
+
+## 1.	Definisi Golang
+
+Golang adalah bahasa pemrograman yang dikembangkan oleh Google yang bertujuan untuk meningkatkan bahasa pemrograman yang sudah ada seperti Python, C, dll. Ini menjadikan Golang pilihan yang tepat untuk mengembangkan aplikasi baru.
+Golang adalah bahasa pemrograman yang dikembangkan oleh Google yang bertujuan untuk meningkatkan bahasa pemrograman yang sudah ada seperti Python, C, dll. Ini menjadikan Golang pilihan yang tepat untuk mengembangkan aplikasi baru.
+Golang adalah bahasa pemrograman sumber terbuka yang dikembangkan oleh insinyur Google Robert Griesemer, Rob Pike, dan Ken Thompson. Mudah dipelajari, sederhana, kuat, dan diketik secara statis. Pertama kali dirilis pada 10 November 2009, Golang berupaya mengumpulkan bahasa pemrograman sebelumnya untuk membuat bahasa pemrograman baru yang lebih "lengkap" untuk bekerja di situs web dan aplikasi. Golang mengintegrasikan "fitur bagus" dari kerangka kerja lama seperti Python, C, dan lainnya agar lebih praktis digunakan dengan satu bahasa pemrograman. Fitur gabungan Golang termasuk pengetikan statis dan runtime untuk bahasa seperti C#, dan sintaksis sederhana untuk bahasa seperti Python dan JavaScript.  
+
+## 2.	Fungsi golang
+
+Golang adalah bahasa pemrograman sumber terbuka yang dikembangkan oleh insinyur Google Robert Griesemer, Rob Pike, dan Ken Thompson. Mudah dipelajari, sederhana, kuat, dan diketik secara statis. Pertama kali dirilis pada 10 November 2009, Golang berupaya mengumpulkan bahasa pemrograman sebelumnya untuk membuat bahasa pemrograman baru yang lebih "lengkap" untuk bekerja di situs web dan aplikasi. Golang mengintegrasikan "fitur bagus" dari kerangka kerja lama seperti Python, C, dan lainnya agar lebih praktis digunakan dengan satu bahasa pemrograman. Fitur gabungan Golang termasuk pengetikan statis dan runtime untuk bahasa seperti C#, dan sintaksis sederhana untuk bahasa seperti Python dan JavaScript.
+
+## 3.	Kelebihan golang
+
+1.	Performa Luar Biasa Golang adalah bahasa pemrograman yang dinilai sangat lancar dan menawarkan kinerja yang lebih baik jika dibandingkan dengan bahasa pemrograman lain, seperti Python dan Java. Salah satu alasan kinerja yang lebih baik pada Golang adalah karena bahasa pemrograman satu ini diketik secara statis, sama seperti C dan C++.  
+2.	Mudah dipelajari kesederhanaan bahasa pemrograman ini membuatnya sangat mudah dipelajari, tidak peduli pengalaman yang dimiliki seseorang dalam bidang web development. Sintaksnya bahkan lebih mudah untuk diadopsi, jika Anda memiliki pengalaman dalam menggunakan Java dan C. Tidak hanya itu, bahasa pemrograman ini juga memiliki komunitas yang besar yang akan memudahkan Anda untuk mendapatkan solusi dari forum yang berpusat pada Go/Golang. 
+3.	Multitasking Golang akan membagi program besar menjadi tugas yang lebih kecil dan menjalankannya secara bersamaan melalui goroutine dan channels. Dengan demikian, komputer akan menjalankan tugas-tugas secara lebih cepat dan menghabiskan lebih sedikit waktu idle. Fitur ini juga menjadikan Golang ideal untuk membuat aplikasi yang dapat diskalakan dari waktu ke waktu.  
+4.	Tidak Perlu Framework  Meskipun memiliki beberapa framework, Anda dapat aplikasi maupun website menggunakan Golang tanpa bergantung pada kerangka kerja apapun! Golang adalah bahasa pemrograman yang memiliki library standar sangat baik, yang memungkinkan Anda untuk membuat aplikasi langsung di dalamnya tanpa menggunakan framework, seperti kebanyakan bahasa pemrograman. Oleh karena itu, Golang adalah bahasa pemrograman yang sangat tepat bagi Anda para developer yang bukan penggemar framework, karena library standar Golang cukup baik untuk membantu Anda dalam development.  
+5.	Library Standar yang Cerdas  Seperti yang sudah dijelaskan sebelumnya, library standar Golang sudah cukup baik dalam mendukung Anda dalam membangun website maupun aplikasi. Developer yang menggunakan bahasa pemrograman Golang dapat melakukan hampir semua hal tanpa perlu mengimport library lainnya. 
+6.	Otorisasi Google Secara Langsung Kelebihan terakhir dari Golang adalah dukungan Google yang diberikan secara langsung. Golang adalah bahasa pemrograman yang dibuat oleh Google. Tentu saja hal ini berarti Golang mendapatkan otorisasi langsung dari Google, sehingga Anda tidak perlu mengkhawatirkan masa depan programnya.
