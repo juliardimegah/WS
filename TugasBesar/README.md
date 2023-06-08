@@ -12,6 +12,10 @@
 ## Jika Bukunya Publish Nilai 100
 ## Submit Aja 80
 
+# RUMUS PEMBAGIAN NILAI ==> (Nilai coding + Buku) / 2 
+
+
+
 Silahkan pilih studi kasus sesuai dengan judul masing-masing,
 kerjakan perkelompok
 
