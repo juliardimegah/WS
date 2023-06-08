@@ -60,7 +60,7 @@ Pelaku delete file orang :
 
 ## FOTO SELAMA ASSESMENT UAS MATA KULIAH PEMPROGRAMAN SERVICE 3
 
-![image](https://user-images.githubusercontent.com/15622730/235965041-390dc05b-d6aa-4cc4-a4da-c91978f33c22.png](https://github.com/kerjabhakti/WS/blob/main/document-assenment/WhatsApp%20Image%202023-06-08%20at%2008.02.56.jpg?raw=true)
+![image](https://github.com/kerjabhakti/WS/blob/main/document-assenment/WhatsApp%20Image%202023-06-08%20at%2008.02.56.jpg?raw=true)
 ![image](https://github.com/kerjabhakti/WS/blob/main/document-assenment/WhatsApp%20Image%202023-06-08%20at%2009.00.28.jpg?raw=true)
 ![image](https://github.com/kerjabhakti/WS/blob/main/document-assenment/WhatsApp%20Image%202023-06-08%20at%2009.00.30.jpg?raw=true)
 ![image](https://github.com/kerjabhakti/WS/blob/main/document-assenment/WhatsApp%20Image%202023-06-08%20at%2009.00.31.jpg?raw=true)
