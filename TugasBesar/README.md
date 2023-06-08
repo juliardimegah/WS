@@ -1,5 +1,17 @@
 # Tugas Besar Matakuliah
 
+# KOMPONEN PENILAIAN
+
+| Pertanyaan   | Presentasi 1x  | Presentasi 2x | 
+| ----------- | ----------- | ----------- |
+| 1 | 100 | 85 | 
+| 2 | 85 | 70 | 
+| 3 | 70 | 55  |
+| 4 | 55 | 40  |
+
+## Jika Bukunya Publish Nilai 100
+## Submit Aja 80
+
 Silahkan pilih studi kasus sesuai dengan judul masing-masing,
 kerjakan perkelompok
 
