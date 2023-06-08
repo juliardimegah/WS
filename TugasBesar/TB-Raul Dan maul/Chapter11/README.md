@@ -36,7 +36,8 @@ The New York Times menggunakan Golang dalam beberapa sistem backend mereka, term
 CloudFlare, penyedia layanan jaringan dan keamanan, menggunakan Golang dalam infrastruktur mereka. Vue.js juga digunakan dalam beberapa aplikasi internal.
 
 Perlu diingat bahwa ini hanya beberapa contoh perusahaan yang menggunakan Golang dan Vue.js, dan masih banyak perusahaan lain yang menggunakan kombinasi teknologi tersebut dalam pengembangan perangkat lunak mereka.
-Apa itu graphql
+
+## Apa itu graphql
 GraphQL adalah bahasa query dan lingkungan runtime yang digunakan untuk mengambil dan memanipulasi data dari server. Ini adalah teknologi yang dikembangkan oleh Facebook dan dirilis secara terbuka pada tahun 2015. GraphQL menyediakan antarmuka yang fleksibel dan efisien antara klien dan server, di mana klien dapat menentukan dengan tepat data apa yang mereka butuhkan dan server memberikan hanya data yang diminta tersebut.
 
 ## Berikut adalah beberapa komponen utama GraphQL dan fungsi-fungsinya:
