@@ -7,7 +7,7 @@ import (
 	"gorm.io/gorm"
 )
 
-type Pembayaran struct {
+type Payment struct {
 	ID          string `gorm:"size:36;not null;uniqueIndex;primary_key"`
 	Order       Order
 	OrderID     string          `gorm:"size:36;index"`
