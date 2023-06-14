@@ -47,3 +47,27 @@ func (p *Product) GetProducts(db *gorm.DB, perPage int, page int) (*[]Product, i
 
 	return &products, count, nil
 }
+
+func (p *Product) FindBySlug(db *gorm.DB, slug string) (*Product, error) {
+	var err error
+	var product Product
+
+	err = db.Debug().Preload("ProductImages").Model(&Product{}).Where("slug = ?", slug).First(&product).Error
+	if err != nil {
+		return nil, err
+	}
+
+	return &product, nil
+}
+
+func (p *Product) FindByID(db *gorm.DB, productID string) (*Product, error) {
+	var err error
+	var product Product
+
+	err = db.Debug().Preload("ProductImages").Model(&Product{}).Where("id = ?", productID).First(&product).Error
+	if err != nil {
+		return nil, err
+	}
+
+	return &product, nil
+}

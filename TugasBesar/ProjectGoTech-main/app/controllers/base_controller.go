@@ -7,6 +7,8 @@ import (
 	"net/http"
 	"os"
 
+	"github.com/gorilla/sessions"
+
 	"1.ProjectGo/app/models"
 	"1.ProjectGo/database/seeders"
 	"github.com/gorilla/mux"
@@ -59,6 +61,9 @@ type PaginationParams struct {
 	PerPage     int32
 	CurrentPage int32
 }
+
+var store = sessions.NewCookieStore([]byte(os.Getenv("SESSION_KEY")))
+var sessionShoppingCart = "shopping-cart-session"
 
 func (server *Server) Initialize(appConfig AppConfig, dbConfig DBConfig) {
 	fmt.Println("Welcome to " + appConfig.AppName)
