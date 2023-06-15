@@ -35,8 +35,6 @@
 
 | Nama   | Soal 1  | Soal 2 | Soal 3 | Nilai |
 | ----------- | ----------- | ----------- | ----------- | ----------- |
-| Fitrah Ali Akbar  |  |  |  |  |
-| Salman Akbar  |  |  |  |  |
 | firda  |  |  |  |  
 | maylinda  |  |  |  |  |
 
