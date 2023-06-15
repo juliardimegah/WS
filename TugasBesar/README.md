@@ -28,8 +28,8 @@
 | Salman Akbar  | ❌ | ❌ | ❌ | ❌ |
 | Firda  |❌  | ❌ | ❌ |❌  |
 | Maylinda  |❌  |❌  | ❌ |  ❌|
-| Adrian | ✔️  |-  | - |  100|
-| Aulia | ❌  |-  | - | 70 |
+| Adrian | ✔️  |✔️  | ✔️ |  100|
+| Aulia | ❌  |❌ | ✔️ | 70 |
 
 # NOTE  presentasi ke 2
 
