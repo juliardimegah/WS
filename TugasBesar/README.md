@@ -46,6 +46,6 @@ kerjakan perkelompok
 | firda  |  |  |  |  
 | maylinda  |  |  |  |  |
 
-# Terlambat Datang Asesment (Tanpa Kode)
+# Terlambat Datang Asesment (Tanpa Kode) dianggap presentasi ke 2 dan pengurangan 10 Point
 ![image](https://github.com/kerjabhakti/WS/assets/15622730/1c3639a2-946f-4ec4-9de0-0b6df6d21109)
 
