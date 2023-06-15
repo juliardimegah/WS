@@ -33,8 +33,8 @@
 | 1214062 Dzikri Izzatul Haq | ✔️ | ✔️ | ✔️ | 100 |
 | 1214081 Ibrohim Mubarok | ✔️ | ✔️ | ✔️ | 100 |
 | 1214066 Megah Juliardi Sondara Wicaksana | Kedua  | |  |  |
-| 1214056 Rachma Nurhaliza Parindra |   | |  |  |
-| 1214063 Shinta Raudita Octora Damayanti |   | |  |  |
+| 1214056 Rachma Nurhaliza Parindra | ✔️ | ✔️ | ✔️ | 100 |
+| 1214063 Shinta Raudita Octora Damayanti | ✔️ | ✔️ | ✔️ | 100 |
 
 
 # NOTE  presentasi ke 2
