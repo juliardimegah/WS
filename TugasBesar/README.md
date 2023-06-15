@@ -22,14 +22,20 @@
 
 | Nama   | Soal 1  | Soal 2 | Soal 3 | Nilai |
 | ----------- | ----------- | ----------- | ----------- | ----------- |
-| Maulana Imanulhaq Nurdiana  | ✔️ | ✔️ | ✔️ | 100 |
-| Raul Mahya Komaran  | ✔️ | ✔️ | ✔️ | 100 |
-| Fitrah Ali Akbar  | Kedua | ✔️ | ✔️ | 85 |
-| Salman Akbar  | Kedua | ✔️ | ✔️ | 85 |
-| Firda  |❌  | ❌ | ❌ |❌  |
-| Maylinda  |❌  |❌  | ❌ |  ❌|
-| Adrian | ✔️  |✔️  | ✔️ |  100|
-| Aulia | ❌  |❌ | ✔️ | 70 |
+| 1214078 Maulana Imanulhaq Nurdiana  | ✔️ | ✔️ | ✔️ | 100 |
+| 1214053 Raul Mahya Komaran  | ✔️ | ✔️ | ✔️ | 100 |
+| 1214085 Fitrah Ali Akbar Setiawan | Kedua | ✔️ | ✔️ | 85 |
+| 1214073 Salman Akbar Hasbullah  | Kedua | ✔️ | ✔️ | 85 |
+| 1214058 Firda Yulianti  |❌  | ❌ | ❌ |❌  |
+| 1214057 Maylinda Christy Yosefina Talan  |❌  |❌  | ❌ |  ❌|
+| 1214074 Adrian Bimo Hernawan Pratama | ✔️  |✔️  | ✔️ |  100|
+| 1214079 Aulia Maharani | ❌  |❌ | ✔️ | 70 |
+| 1214062 Dzikri Izzatul Haq |   |  |  |  |
+| 1214081 Ibrohim Mubarok |   | |  |  |
+| 1214066 Megah Juliardi Sondara Wicaksana |   | |  |  |
+| 1214056 Rachma Nurhaliza Parindra |   | |  |  |
+| 1214063 Shinta Raudita Octora Damayanti |   | |  |  |
+
 
 # NOTE  presentasi ke 2
 
