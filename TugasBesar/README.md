@@ -13,16 +13,10 @@
 ## Submit Aja 80
 
 # RUMUS PEMBAGIAN NILAI ==> (Nilai coding + Buku) / 2 
-
-![WhatsApp Image 2023-06-08 at 09 57 34](https://github.com/kerjabhakti/WS/assets/98022263/dea9be19-e930-41cb-b91c-fa6ecc5f46e5)
-
-
-Silahkan pilih studi kasus sesuai dengan judul masing-masing,
-kerjakan perkelompok
-
-
-1.Raul Mahya dan Maulana Dengan Judul Membuat golang CRUD dengan menggunakan Graphql dan mongodb
-
+## ==> (Nilai coding presentasi + Penjelasan Readme)
+| A = 4 | AB = 3,5 | B = 3 | BC = 2,5 |C = 2 |D = 1 | E = 0|
+| -------- | -------- | -------- | -------- |-------- |-------- |-------- |
+| 85 - 100 | 78 - 84,99 | 70 - 77,99 | 65 - 69,99 | 60 - 64,99 | 41 - 59,99 | <40,99|
 
 # PRESENTASI CODE TUGAS BESAR KE - 1 (❌/✔️)
 
