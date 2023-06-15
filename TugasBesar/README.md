@@ -24,7 +24,7 @@
 | ----------- | ----------- | ----------- | ----------- | ----------- |
 | Maulana Imanulhaq Nurdiana  | ✔️ | ✔️ | ✔️ | 100 |
 | Raul Mahya Komaran  | ✔️ | ✔️ | ✔️ | 100 |
-| Fitrah Ali Akbar  | ❌ | ❌ | ❌ | ❌ |
+| Fitrah Ali Akbar  | Kedua | ✔️ | ✔️ | 85 |
 | Salman Akbar  | ❌ | ❌ | ❌ | ❌ |
 | Firda  |❌  | ❌ | ❌ |❌  |
 | Maylinda  |❌  |❌  | ❌ |  ❌|
