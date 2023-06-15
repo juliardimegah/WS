@@ -26,8 +26,8 @@
 | 1214053 Raul Mahya Komaran  | ✔️ | ✔️ | ✔️ | 100 |
 | 1214085 Fitrah Ali Akbar Setiawan | Kedua | ✔️ | ✔️ | 85 |
 | 1214073 Salman Akbar Hasbullah  | Kedua | ✔️ | ✔️ | 85 |
-| 1214058 Firda Yulianti  |❌  | ❌ | ❌ |❌  |
-| 1214057 Maylinda Christy Yosefina Talan  |❌  |❌  | ❌ |  ❌|
+| 1214058 Firda Yulianti  |Kedua  | ❌ | ❌ |❌  |
+| 1214057 Maylinda Christy Yosefina Talan  |Kedua  |❌  | ❌ |  ❌|
 | 1214074 Adrian Bimo Hernawan Pratama | ✔️  |✔️  | ✔️ |  100|
 | 1214079 Aulia Maharani | ❌  |❌ | ✔️ | 70 |
 | 1214062 Dzikri Izzatul Haq |   |  |  |  |
