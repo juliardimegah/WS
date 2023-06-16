@@ -1,13 +1,13 @@
 package main
 
 import (
-	"Chapter06/config"
-	"Chapter06/url"
 	"log"
 	"os"
 
 	"github.com/gofiber/fiber/v2"
 	"github.com/gofiber/fiber/v2/middleware/cors"
+	"github.com/kerjabhakti/WS/Chapter06/Chapter06/config"
+	"github.com/kerjabhakti/WS/Chapter06/Chapter06/url"
 )
 
 func SetPort() string {
