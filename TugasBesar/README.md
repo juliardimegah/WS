@@ -35,7 +35,8 @@
 | 1214066 Megah Juliardi Sondara Wicaksana | Kedua | ✔️ | ✔️ | 85 |
 | 1214056 Rachma Nurhaliza Parindra | ✔️ | ✔️ | ✔️ | 100 |
 | 1214063 Shinta Raudita Octora Damayanti | ✔️ | ✔️ | ✔️ | 100 |
-
+| 1214060 Prisya Haura Febrianti |Kedua  | ❌ | ❌ |❌  |
+| 1214064 Adam Ghafara | Kedua | ✔️ | ✔️ | 85 |
 
 # NOTE  presentasi ke 2
 
